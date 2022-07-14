@@ -13,16 +13,6 @@ $colors: (
   bitByBitRed: rgba(240, 44, 80, 1),
   bitByBitBlue: rgba(0, 79, 136, 1),
   bitByBitBlonde: rgba(241, 227, 214, 1),
-  coolGrey50: rgb(245, 247, 250),
-  coolGrey100: rgb(228,231,235),
-  coolGrey200: rgb(203,210,217),
-  coolGrey300: rgb(154,165,177),
-  coolGrey400: rgb(123,135,148),
-  coolGrey500: rgb(97,110,124),
-  coolGrey600: rgb(82,96,109),
-  coolGrey700: rgb(62,76,89),
-  coolGrey800: rgb(50,63,75),
-  coolGrey900: rgb(31,41,51),
 );
 
 @function getColor($color-name) {
@@ -30,70 +20,8 @@ $colors: (
 }
 
 * {
-  *::before,
-*::after {
   box-sizing: border-box;
   border: none;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-html:focus-within {
-  scroll-behavior: smooth;
-}
-
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-};
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-body {
-  display: grid;
-  place-content: center;
-  min-height: 100vh;
-
-  font-family: "var(--ff-primary)";
-  font-weight: var(--fw-400);
-
-  background-color: getColor(coolGrey900);
-}
-
-h1,
-h2,
-h3 {
-  font-weight: var(--fw-700);
 }
 
 
@@ -118,4 +46,3 @@ h3 {
 //  font-family: "Roboto Slab";
 //  src: url("../fonts/RobotoSlab-VariableFont_wght.woff2");
 //}
-}

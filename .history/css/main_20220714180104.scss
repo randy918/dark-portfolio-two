@@ -87,7 +87,7 @@ body {
   font-family: "var(--ff-primary)";
   font-weight: var(--fw-400);
 
-  background-color: getColor(coolGrey900);
+  background-color: hsl(var(--clr-neutral-200));
 }
 
 h1,
@@ -118,4 +118,3 @@ h3 {
 //  font-family: "Roboto Slab";
 //  src: url("../fonts/RobotoSlab-VariableFont_wght.woff2");
 //}
-}
