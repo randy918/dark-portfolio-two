@@ -38,31 +38,39 @@ body {
 
 .header {
   grid-area: header;
+  padding: 1rem;
 }
 
 .display {
   grid-area: display;
+  padding: 1rem;
 }
 
 .sidebar {
   grid-area: sidebar;
+  padding: 1rem;
 }
 
 .portfolio-a {
+  padding: 1rem;
   grid-area: portfolio-a;
 }
 .portfolio-b {
+  padding: 1rem;
   grid-area: portfolio-b;
 }
 .portfolio-c {
+  padding: 1rem;
   grid-area: portfolio-c;
 }
 .portfolio-d {
+  padding: 1rem;
   grid-area: portfolio-d;
 }
 
 .footer {
   grid-area: footer;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -71,9 +79,11 @@ body {
     grid-template-areas: "header header header header header" "display display display display display" "sidebar sidebar portfolio-a portfolio-a portfolio-a" "sidebar sidebar portfolio-c portfolio-c portfolio-c" "footer footer footer footer footer";
   }
   .portfolio-b {
+    padding: 1rem;
     display: none;
   }
   .portfolio-d {
+    padding: 1rem;
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */

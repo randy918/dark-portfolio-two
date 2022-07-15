@@ -95,39 +95,26 @@ body {
 
 .sidebar {
   grid-area: sidebar;
-  padding: 1rem;
-
 }
 
 .portfolio {
-
   &-a {
-  padding: 1rem;
-
     grid-area: portfolio-a;
   }
 
   &-b {
-  padding: 1rem;
-
     grid-area: portfolio-b;
   }
   &-c {
-  padding: 1rem;
-
     grid-area: portfolio-c;
   }
   &-d {
-  padding: 1rem;
-
     grid-area: portfolio-d;
   }
 }
 
 .footer {
   grid-area: footer;
-  padding: 1rem;
-
 }
 
 @media screen and (max-width: 800px) {
@@ -146,15 +133,11 @@ body {
   }
 
   &-b {
-  padding: 1rem;
-
     display: none;
   }
   &-c {
   }
   &-d {
-  padding: 1rem;
-
         display: none;
 
   }
