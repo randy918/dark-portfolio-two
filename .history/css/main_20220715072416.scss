@@ -28,7 +28,7 @@ $colors: (
   grey600: rgb(61, 61, 61),
   grey800: rgb(33, 33, 33),
   grey1000: rgb(24, 24, 24),
-  grey5000: rgb(12, 12, 12, 0.5),
+  grey5000: rgb(12, 12, 12),
   grey10000: rgb(0, 0, 0),
 );
 
@@ -37,13 +37,10 @@ $colors: (
 }
 
 * {
-    
   *::before,
   *::after {
     box-sizing: border-box;
     border: none;
-    
-  
   }
 
   body,
@@ -58,21 +55,15 @@ $colors: (
   dd {
     margin: 0;
   }
+}
 
 body {
   background-color: getColor(grey1000);
-  
-}
-}
-body::-webkit-scrollbar {
-  width: 0px;               /* width of the entire scrollbar */
 }
 
-
-.basic-wrapper {
-    
+.wrapper {
   display: grid;
-  gap: .75rem;
+  gap: 1rem;
     overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
@@ -84,18 +75,12 @@ body::-webkit-scrollbar {
     "sidebar portfolio-a portfolio-a portfolio-b portfolio-b"
     "sidebar portfolio-c portfolio-c portfolio-d portfolio-d"
     "footer footer footer footer footer";
+}
 
-&-box {
+.box {
   background-color: getColor(grey800);
   border-radius: 0.25rem;
-  padding: 1rem;
-      box-shadow: 7px 7px 15px getColor(grey5000);
-
-
 }
-}
-
-
 
 .header {
   grid-area: header;
@@ -103,30 +88,36 @@ body::-webkit-scrollbar {
 
 .display {
   grid-area: display;
+  padding: 1rem;
 
 }
 
 .sidebar {
   grid-area: sidebar;
+  padding: 1rem;
 
 }
 
 .portfolio {
 
   &-a {
+  padding: 1rem;
 
     grid-area: portfolio-a;
   }
 
   &-b {
+  padding: 1rem;
 
     grid-area: portfolio-b;
   }
   &-c {
+  padding: 1rem;
 
     grid-area: portfolio-c;
   }
   &-d {
+  padding: 1rem;
 
     grid-area: portfolio-d;
   }
@@ -134,11 +125,12 @@ body::-webkit-scrollbar {
 
 .footer {
   grid-area: footer;
+  padding: 1rem;
 
 }
 
 @media screen and (max-width: 800px) {
-  .basic-wrapper {
+  .wrapper {
     height: 100vh;
       grid-template-areas:
     "header header header header header"
@@ -153,12 +145,14 @@ body::-webkit-scrollbar {
   }
 
   &-b {
+  padding: 1rem;
 
     display: none;
   }
   &-c {
   }
   &-d {
+  padding: 1rem;
 
         display: none;
 

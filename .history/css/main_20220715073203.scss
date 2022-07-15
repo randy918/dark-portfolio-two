@@ -28,7 +28,7 @@ $colors: (
   grey600: rgb(61, 61, 61),
   grey800: rgb(33, 33, 33),
   grey1000: rgb(24, 24, 24),
-  grey5000: rgb(12, 12, 12, 0.5),
+  grey5000: rgb(12, 12, 12, 0),
   grey10000: rgb(0, 0, 0),
 );
 
@@ -37,13 +37,10 @@ $colors: (
 }
 
 * {
-    
   *::before,
   *::after {
     box-sizing: border-box;
     border: none;
-    
-  
   }
 
   body,
@@ -58,19 +55,13 @@ $colors: (
   dd {
     margin: 0;
   }
+}
 
 body {
   background-color: getColor(grey1000);
-  
 }
-}
-body::-webkit-scrollbar {
-  width: 0px;               /* width of the entire scrollbar */
-}
-
 
 .basic-wrapper {
-    
   display: grid;
   gap: .75rem;
     overflow: hidden;

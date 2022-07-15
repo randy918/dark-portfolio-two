@@ -37,7 +37,7 @@ $colors: (
 }
 
 * {
-    
+    scrollbar-width: none;
   *::before,
   *::after {
     box-sizing: border-box;
@@ -58,16 +58,12 @@ $colors: (
   dd {
     margin: 0;
   }
+}
 
 body {
   background-color: getColor(grey1000);
   
 }
-}
-body::-webkit-scrollbar {
-  width: 0px;               /* width of the entire scrollbar */
-}
-
 
 .basic-wrapper {
     

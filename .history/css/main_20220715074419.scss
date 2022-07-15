@@ -64,11 +64,9 @@ body {
   
 }
 }
-body::-webkit-scrollbar {
-  width: 0px;               /* width of the entire scrollbar */
+body::-webkit-scrollbar-track {
+  background: orange;        /* color of the tracking area */
 }
-
-
 .basic-wrapper {
     
   display: grid;
