@@ -59,11 +59,9 @@ $colors: (
 
 body {
   background-color: getColor(grey1000);
-  
+  scroll
 }
-body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
+
 .wrapper {
   display: grid;
   gap: 1rem;

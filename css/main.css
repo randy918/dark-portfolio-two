@@ -20,6 +20,10 @@ body {
   background-color: rgb(24, 24, 24);
 }
 
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
 .wrapper {
   display: grid;
   gap: 1rem;
