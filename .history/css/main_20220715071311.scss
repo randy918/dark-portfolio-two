@@ -124,19 +124,20 @@ body {
     "sidebar sidebar portfolio-a portfolio-a portfolio-a"
     "sidebar sidebar portfolio-c portfolio-c portfolio-c"
     "footer footer footer footer footer";
-  }
+  }}
 
   .portfolio {
   &-a {
+    grid-area: portfolio-a;
   }
 
   &-b {
-    display: none;
+    grid-area: portfolio-b;
   }
   &-c {
+    grid-area: portfolio-c;
   }
   &-d {
-        display: none;
-
+    grid-area: portfolio-d;
   }
-}}
+}

@@ -23,6 +23,7 @@ body {
 .wrapper {
   display: grid;
   gap: 1rem;
+  overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
   height: 100vh;
@@ -66,7 +67,13 @@ body {
 
 @media screen and (max-width: 800px) {
   .wrapper {
-    margin-right: 0rem;
+    height: 100vh;
     grid-template-areas: "header header header header header" "display display display display display" "sidebar sidebar portfolio-a portfolio-a portfolio-a" "sidebar sidebar portfolio-c portfolio-c portfolio-c" "footer footer footer footer footer";
+  }
+  .portfolio-b {
+    display: none;
+  }
+  .portfolio-d {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
