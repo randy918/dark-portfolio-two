@@ -1,0 +1,43 @@
+* *::before,
+* *::after {
+  box-sizing: border-box;
+  border: none;
+}
+* body,
+* h1,
+* h2,
+* h3,
+* h4,
+* p,
+* figure,
+* blockquote,
+* dl,
+* dd {
+  margin: 0;
+}
+* html:focus-within {
+  scroll-behavior: smooth;
+}
+* body {
+  background-color: rgb(24, 24, 24);
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+* .box {
+  display: flex;
+  background: blue;
+  padding: 2rem;
+}
+* .portfolio-grid {
+  background-color: rgb(33, 33, 33);
+  display: grid;
+  padding-block: 2rem;
+}
+* .large {
+  font-size: 125%;
+}
+* .emphasize {
+  color: #666;
+  font-style: italic;
+}/*# sourceMappingURL=main_20220714210344.css.map */

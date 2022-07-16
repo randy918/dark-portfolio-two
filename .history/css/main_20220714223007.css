@@ -1,0 +1,47 @@
+* *::before,
+* *::after {
+  box-sizing: border-box;
+  border: none;
+}
+* body,
+* h1,
+* h2,
+* h3,
+* h4,
+* p,
+* figure,
+* blockquote,
+* dl,
+* dd {
+  margin: 0;
+}
+* html:focus-within {
+  scroll-behavior: smooth;
+}
+* body {
+  background-color: rgb(24, 24, 24);
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  width: min(93%, 70rem);
+  margin-inline: auto;
+}
+* .box {
+  display: flex;
+  background: blue;
+  padding: 2rem;
+}
+* .wrapper {
+  display: grid;
+  margin-bv: 1.5rem;
+  margin-top: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1.75fr 1fr 1fr 1fr;
+}
+* .large {
+  font-size: 125%;
+}
+* .emphasize {
+  color: #666;
+  font-style: italic;
+}/*# sourceMappingURL=main_20220714223007.css.map */

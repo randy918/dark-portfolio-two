@@ -1,0 +1,25 @@
+* *::before,
+* *::after {
+  box-sizing: border-box;
+  border: none;
+}
+* body,
+* h1,
+* h2,
+* h3,
+* h4,
+* p,
+* figure,
+* blockquote,
+* dl,
+* dd {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(24, 24, 24);
+}
+
+.wrapper {
+  display: grid;
+}/*# sourceMappingURL=main_20220714233433.css.map */
