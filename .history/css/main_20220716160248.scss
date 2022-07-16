@@ -83,7 +83,6 @@ body::-webkit-scrollbar {
 }
 
 .grid-item {
-  background-color: getColor(grey800);
   border-radius: 0.25rem;
 }
 
@@ -94,26 +93,21 @@ display: flex;
 
 .flex-item{
     flex: 1;
-  border-radius: 0.25rem;
-
 }
 
 .grid-header {
   grid-area: header;
-//   padding: 1rem;
-  
+  padding: 1rem;
 }
 
-.flex-header-1{       
-        background-color: getColor(theBrown);
+flex-header-1{
+    background-color: getColor(theBrown);
 }
-.flex-header-2{
-            background-color: getColor(coolGrey400);
-
+flex-header-2{
+    background-color: getColor(grey600);
 }
-.flex-header-3{
-            background-color: getColor(coolGrey200);
-
+flex-header-3{
+    background-color: getColor(grey600);
 }
 
 .grid-display {
@@ -170,7 +164,7 @@ display: flex;
     "footer footer footer footer footer";
   }
 
-  .grid-portfolio {
+  .portfolio {
   &-a {
   }
 

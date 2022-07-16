@@ -89,31 +89,26 @@ body::-webkit-scrollbar {
 
 .flex-container{
 display: flex;
+    background-color: getColor(theBrown);
 
 }
 
 .flex-item{
     flex: 1;
-  border-radius: 0.25rem;
-
+    
 }
 
 .grid-header {
   grid-area: header;
-//   padding: 1rem;
+  padding: 1rem;
   
 }
 
-.flex-header-1{       
-        background-color: getColor(theBrown);
+flex-header-1{
 }
-.flex-header-2{
-            background-color: getColor(coolGrey400);
-
+flex-header-2{
 }
-.flex-header-3{
-            background-color: getColor(coolGrey200);
-
+flex-header-3{
 }
 
 .grid-display {

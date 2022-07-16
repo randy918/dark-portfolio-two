@@ -94,41 +94,28 @@ display: flex;
 
 .flex-item{
     flex: 1;
-  border-radius: 0.25rem;
-
 }
 
-.grid-header {
+.header {
   grid-area: header;
-//   padding: 1rem;
-  
+  padding: 1rem;
 }
 
-.flex-header-1{       
-        background-color: getColor(theBrown);
-}
-.flex-header-2{
-            background-color: getColor(coolGrey400);
 
-}
-.flex-header-3{
-            background-color: getColor(coolGrey200);
 
-}
-
-.grid-display {
+.display {
   grid-area: display;
   padding: 1rem;
 
 }
 
-.grid-sidebar {
+.sidebar {
   grid-area: sidebar;
   padding: 1rem;
 
 }
 
-.grid-portfolio {
+.portfolio {
 
   &-a {
   padding: 1rem;
@@ -153,7 +140,7 @@ display: flex;
   }
 }
 
-.grid-footer {
+.footer {
   grid-area: footer;
   padding: 1rem;
 
@@ -170,7 +157,7 @@ display: flex;
     "footer footer footer footer footer";
   }
 
-  .grid-portfolio {
+  .portfolio {
   &-a {
   }
 
