@@ -71,9 +71,8 @@ body::-webkit-scrollbar {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
   height: 90vh;
-  width: 90vw;
+  width: 
   margin: 0 auto;
-  margin-top: 4vw;
   grid-template-areas:
     "header header header header header"
     "display display display display display"
