@@ -88,13 +88,10 @@ body::-webkit-scrollbar {
 }
 
 .flex-container{
-display: flex;
 
+    
 }
 
-.flex-item{
-    flex: 1;
-}
 
 .header {
   grid-area: header;

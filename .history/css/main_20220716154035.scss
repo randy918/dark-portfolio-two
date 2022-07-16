@@ -65,15 +65,15 @@ body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
 }
 .grid-container {
+    overflow: hidden;
   display: grid;
   gap: 1rem;
-    overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
   height: 90vh;
-  width: 90vw;
-  margin: 0 auto;
   margin-top: 4vw;
+  margin: 0 auto;
+  width: 90vw;
   grid-template-areas:
     "header header header header header"
     "display display display display display"
@@ -85,15 +85,6 @@ body::-webkit-scrollbar {
 .grid-item {
   background-color: getColor(grey800);
   border-radius: 0.25rem;
-}
-
-.flex-container{
-display: flex;
-
-}
-
-.flex-item{
-    flex: 1;
 }
 
 .header {
