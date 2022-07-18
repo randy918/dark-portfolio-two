@@ -70,7 +70,7 @@ body::-webkit-scrollbar {
     overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
-  height: 91vh;
+  height: vh;
   margin: 2rem;
   grid-template-areas:
     "header header header header header"
@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 800px) {
   .wrapper {
-    height: 91vh;
+    height: 100vh;
       grid-template-areas:
     "header header header header header"
     "display display display display display"
