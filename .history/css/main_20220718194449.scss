@@ -83,19 +83,21 @@ body::-webkit-scrollbar {
 .grid__item {
   background-color: getColor(grey800);
   border-radius: 0.5rem;
+  color:
 }
 
 .grid__header {
   grid-area: header;
-  background-color: getColor(grey800);
 }
 
 .grid__display {
   grid-area: display;
+
 }
 
 .grid__sidebar {
   grid-area: sidebar;
+
 }
 
 .grid__portfolio {

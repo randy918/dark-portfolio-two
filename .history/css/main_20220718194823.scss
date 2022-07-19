@@ -88,14 +88,17 @@ body::-webkit-scrollbar {
 .grid__header {
   grid-area: header;
   background-color: getColor(grey800);
+
 }
 
 .grid__display {
   grid-area: display;
+
 }
 
 .grid__sidebar {
   grid-area: sidebar;
+
 }
 
 .grid__portfolio {
