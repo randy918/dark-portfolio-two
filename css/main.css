@@ -32,6 +32,7 @@ body::-webkit-scrollbar {
 .grid__container {
   display: grid;
   width: 95vw;
+  flex-flow: row;
   gap: 0.75rem;
   overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -53,10 +54,15 @@ body::-webkit-scrollbar {
 
 .grid__display {
   grid-area: display;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
 .grid__sidebar {
   grid-area: sidebar;
+  min-width: 100px;
 }
 
 .grid__portfolio-a {
@@ -84,10 +90,30 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 
+.flex__display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(33, 33, 33);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  overflow: hidden;
+  justify-content: space-around;
+}
+
+.photo > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  min-width: 0;
+}
+
 @media screen and (max-width: 800px) {
   .grid__container {
     height: 91vh;
-    grid-template-areas: "header header header header header" "display display display display display" "sidebar sidebar portfolio-a portfolio-a portfolio-a" "sidebar sidebar portfolio-c portfolio-c portfolio-c" "footer footer footer footer footer";
+    grid-template-areas: "header header header header header" "display display display display display" "sidebar portfolio-a portfolio-a portfolio-a portfolio-a" "sidebar portfolio-c portfolio-c portfolio-c portfolio-c" "footer footer footer footer footer";
   }
   .grid__portfolio-b {
     padding: 1rem;
