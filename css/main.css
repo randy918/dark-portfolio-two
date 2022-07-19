@@ -18,14 +18,20 @@
 
 body {
   background-color: rgb(24, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: min(1300px, 80% + 100px);
 }
 
 body::-webkit-scrollbar {
-  width: 12px; /* width of the entire scrollbar */
+  width: 12px;
 }
 
 .grid__container {
   display: grid;
+  width: 95vw;
   gap: 0.75rem;
   overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

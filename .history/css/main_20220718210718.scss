@@ -62,8 +62,7 @@ body {
   display: flex;
   justify-content: center;
     align-items: center;
-   margin: 0 auto;
-  width: min(1300px, calc(80% + 100px));
+    width(1.8rem, 2.5vw, 2.8rem)
 
 }
 body::-webkit-scrollbar {
@@ -74,7 +73,6 @@ body::-webkit-scrollbar {
 .grid__container {
   display: grid;
     width: 95vw;
-    
   gap: .75rem;
 //   margin: auto;
 //   width: min(60vw, 500px);

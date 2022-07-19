@@ -62,8 +62,8 @@ body {
   display: flex;
   justify-content: center;
     align-items: center;
-   margin: 0 auto;
-  width: min(1300px, calc(80% + 100px));
+    margin: auto;
+    width: clamp(0px, 700px, 900px);
 
 }
 body::-webkit-scrollbar {

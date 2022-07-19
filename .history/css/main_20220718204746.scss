@@ -61,26 +61,19 @@ body {
   background-color: getColor(grey1000);
   display: flex;
   justify-content: center;
-    align-items: center;
-   margin: 0 auto;
-  width: min(1300px, calc(80% + 100px));
-
+  width: 90%;
+  
 }
 body::-webkit-scrollbar {
   width: 12px;    
-  
-//   width: min(1000px, calc(70% + 100px));
 }
 .grid__container {
   display: grid;
-    width: 95vw;
-    
   gap: .75rem;
-//   margin: auto;
 //   width: min(60vw, 500px);
 //   width: max(30vw, 500px);
 
-  overflow: hidden;
+    overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
   height: 91vh;
