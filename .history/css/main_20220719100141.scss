@@ -168,6 +168,9 @@ body::-webkit-scrollbar {
     justify-content:  space-around;
 }
 
+.photo > img {
+height: 100%;
+}
 
 @media screen and (max-width: 800px) {
   .grid__container {

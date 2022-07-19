@@ -124,7 +124,7 @@ body::-webkit-scrollbar {
 
   &-a {
     grid-area: portfolio-a;
-    
+    height: 10
   }
 
   &-b {
@@ -168,6 +168,10 @@ body::-webkit-scrollbar {
     justify-content:  space-around;
 }
 
+.photo > img {
+  object-fit: contain;
+  min-width: 0;
+}
 
 @media screen and (max-width: 800px) {
   .grid__container {
