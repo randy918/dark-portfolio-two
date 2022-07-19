@@ -116,11 +116,11 @@ body::-webkit-scrollbar {
     grid-template-areas: "header header header header header" "display display display display display" "sidebar portfolio-a portfolio-a portfolio-a portfolio-a" "sidebar portfolio-c portfolio-c portfolio-c portfolio-c" "footer footer footer footer footer";
   }
   .grid__portfolio-b {
-    padding: 1rem;
+    padding: 0.75rem;
     display: none;
   }
   .grid__portfolio-d {
-    padding: 1rem;
+    padding: rem;
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */

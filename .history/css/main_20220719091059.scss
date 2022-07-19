@@ -124,19 +124,23 @@ body::-webkit-scrollbar {
 
   &-a {
     grid-area: portfolio-a;
+    padding: .75rem;
   }
 
   &-b {
 
     grid-area: portfolio-b;
+    padding: .75rem;
   }
   &-c {
 
     grid-area: portfolio-c;
+    padding: .75rem;
   }
   &-d {
 
     grid-area: portfolio-d;
+    padding: .75rem;
   }
 }
 
@@ -184,19 +188,18 @@ body::-webkit-scrollbar {
   }
 
   .grid__portfolio {
-  &-a {
+  &-a {padding: .75rem;
   }
 
-  &-b {
-  padding: .75rem;
+  &-b {padding: .75rem;
+  padding: 1rem;
 
 
     display: none;
   }
-  &-c {
+  &-c {padding: .75rem;
   }
-  &-d {
-  padding: rem;
+  &-d {padding: .75rem;
 
         display: none;
 

@@ -185,10 +185,11 @@ body::-webkit-scrollbar {
 
   .grid__portfolio {
   &-a {
+    padding: .75em;
   }
 
   &-b {
-  padding: .75rem;
+  padding: .75em;
 
 
     display: none;
@@ -196,7 +197,7 @@ body::-webkit-scrollbar {
   &-c {
   }
   &-d {
-  padding: rem;
+  padding: .75rem;
 
         display: none;
 
