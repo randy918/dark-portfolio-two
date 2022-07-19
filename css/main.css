@@ -24,9 +24,9 @@ body::-webkit-scrollbar {
   width: 12px; /* width of the entire scrollbar */
 }
 
-.wrapper {
+.grid__container {
   display: grid;
-  gap: 1rem;
+  gap: 0.75rem;
   overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
@@ -35,58 +35,58 @@ body::-webkit-scrollbar {
   grid-template-areas: "header header header header header" "display display display display display" "sidebar portfolio-a portfolio-a portfolio-b portfolio-b" "sidebar portfolio-c portfolio-c portfolio-d portfolio-d" "footer footer footer footer footer";
 }
 
-.box {
+.grid__item {
   background-color: rgb(33, 33, 33);
   border-radius: 0.5rem;
 }
 
-.header {
+.grid__header {
   grid-area: header;
-  padding: 1rem;
 }
 
-.display {
+.grid__display {
   grid-area: display;
-  padding: 1rem;
 }
 
-.sidebar {
+.grid__sidebar {
   grid-area: sidebar;
-  padding: 1rem;
 }
 
-.portfolio-a {
-  padding: 1rem;
+.grid__portfolio-a {
   grid-area: portfolio-a;
 }
-.portfolio-b {
-  padding: 1rem;
+.grid__portfolio-b {
   grid-area: portfolio-b;
 }
-.portfolio-c {
-  padding: 1rem;
+.grid__portfolio-c {
   grid-area: portfolio-c;
 }
-.portfolio-d {
-  padding: 1rem;
+.grid__portfolio-d {
   grid-area: portfolio-d;
 }
 
-.footer {
+.grid__footer {
   grid-area: footer;
   padding: 1rem;
 }
 
+.flex__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 800px) {
-  .wrapper {
+  .grid__container {
     height: 91vh;
     grid-template-areas: "header header header header header" "display display display display display" "sidebar sidebar portfolio-a portfolio-a portfolio-a" "sidebar sidebar portfolio-c portfolio-c portfolio-c" "footer footer footer footer footer";
   }
-  .portfolio-b {
+  .grid__portfolio-b {
     padding: 1rem;
     display: none;
   }
-  .portfolio-d {
+  .grid__portfolio-d {
     padding: 1rem;
     display: none;
   }
