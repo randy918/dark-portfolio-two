@@ -111,8 +111,6 @@ body::-webkit-scrollbar {
 
 .grid__sidebar {
   grid-area: sidebar;
-  min-width: 100px; /* Set value to whatever you want */
-    overflow: auto; 
 }
 
 .grid__portfolio {

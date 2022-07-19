@@ -57,6 +57,8 @@ body::-webkit-scrollbar {
 
 .grid__sidebar {
   grid-area: sidebar;
+  min-width: 100px; /* Set value to whatever you want */
+  overflow: auto;
 }
 
 .grid__portfolio-a {
@@ -87,7 +89,7 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 800px) {
   .grid__container {
     height: 91vh;
-    grid-template-areas: "header header header header header" "display display display display display" "sidebar sidebar portfolio-a portfolio-a portfolio-a" "sidebar sidebar portfolio-c portfolio-c portfolio-c" "footer footer footer footer footer";
+    grid-template-areas: "header header header header header" "display display display display display" "sidebar portfolio-a portfolio-a portfolio-a portfolio-a" "sidebar portfolio-c portfolio-c portfolio-c portfolio-c" "footer footer footer footer footer";
   }
   .grid__portfolio-b {
     padding: 1rem;
