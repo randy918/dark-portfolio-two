@@ -118,6 +118,7 @@ body::-webkit-scrollbar {
 .grid__sidebar {
   grid-area: sidebar;
   min-width: 100px;
+  max-width: 250px
 }
 
 .grid__portfolio {
@@ -171,7 +172,7 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 800px) {
   .grid__container {
-
+    height: 91vh;
       grid-template-areas:
     "header header header header header"
     "display display display display display"
@@ -199,10 +200,3 @@ body::-webkit-scrollbar {
 
   }
 }}
-
-@media screen and (min-width: 1200px) {
-
-.grid__container {}
-
-    
-}
