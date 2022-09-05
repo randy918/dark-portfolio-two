@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
 
 //   overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.75fr 1.75fr 1fr 1fr 1fr 0.75fr;
+  grid-template-rows: 0.75fr 1.75fr 1fr 1fr 0.75fr;
   height: 91vh;
   margin: 2rem;
   
@@ -134,36 +134,50 @@ body::-webkit-scrollbar {
 
   &-a {
     grid-area: portfolio-a;
+    
   }
+
   &-b {
+
     grid-area: portfolio-b;
   }
   &-c {
     grid-area: portfolio-c;
+    
   }
+
   &-d {
+
     grid-area: portfolio-d;
   }
   &-e {
     grid-area: portfolio-e;
+    
   }
+
   &-f {
+
     grid-area: portfolio-f;
   }
   &-g {
     grid-area: portfolio-g;
+    
   }
+
   &-h {
+
     grid-area: portfolio-h;
   }
-  &-i {
+
+  &-h {
+
     grid-area: portfolio-i;
   }
 }
 
 .grid__footer {
   grid-area: footer;
-//   padding: 1rem;
+  padding: 1rem;
 
 }
 

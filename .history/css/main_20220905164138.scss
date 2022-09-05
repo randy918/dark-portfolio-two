@@ -134,36 +134,50 @@ body::-webkit-scrollbar {
 
   &-a {
     grid-area: portfolio-a;
+    
   }
+
   &-b {
+
     grid-area: portfolio-b;
   }
   &-c {
     grid-area: portfolio-c;
+    
   }
+
   &-d {
+
     grid-area: portfolio-d;
   }
   &-e {
     grid-area: portfolio-e;
+    
   }
+
   &-f {
+
     grid-area: portfolio-f;
   }
   &-g {
     grid-area: portfolio-g;
+    
   }
+
   &-h {
+
     grid-area: portfolio-h;
   }
-  &-i {
+
+  &-h {
+
     grid-area: portfolio-i;
   }
 }
 
 .grid__footer {
   grid-area: footer;
-//   padding: 1rem;
+  padding: 1rem;
 
 }
 

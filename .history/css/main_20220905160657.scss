@@ -81,24 +81,23 @@ body::-webkit-scrollbar {
   display: grid;
     width: 95vw;
     flex-flow: row;
-  gap: .75vw;
+  gap: .75rem;
 //   margin: auto;
 //   width: min(60vw, 500px);
 //   width: max(30vw, 500px);
 
 //   overflow: hidden;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.75fr 1.75fr 1fr 1fr 1fr 0.75fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
   height: 91vh;
   margin: 2rem;
   
   grid-template-areas:
-    "header header header"
-    "display display display"
-    "portfolio-a portfolio-b portfolio-c"
-    "portfolio-d portfolio-e portfolio-f"
-    "portfolio-g portfolio-h portfolio-i"
-    "footer footer footer";
+    "header header"
+    "display display"
+    "portfolio-a portfolio-b-b"
+    "portfolio-c portfolio-c portfolio-d portfolio-d"
+    "footer footer";
 }
 
 .grid__item {
@@ -134,36 +133,26 @@ body::-webkit-scrollbar {
 
   &-a {
     grid-area: portfolio-a;
+    
   }
+
   &-b {
+
     grid-area: portfolio-b;
   }
   &-c {
+
     grid-area: portfolio-c;
   }
   &-d {
+
     grid-area: portfolio-d;
-  }
-  &-e {
-    grid-area: portfolio-e;
-  }
-  &-f {
-    grid-area: portfolio-f;
-  }
-  &-g {
-    grid-area: portfolio-g;
-  }
-  &-h {
-    grid-area: portfolio-h;
-  }
-  &-i {
-    grid-area: portfolio-i;
   }
 }
 
 .grid__footer {
   grid-area: footer;
-//   padding: 1rem;
+  padding: 1rem;
 
 }
 
@@ -255,58 +244,58 @@ top: 0; left: 2vw;
     color: white;
 }
 
-// @media screen and (max-width: 800px) {
-//   .grid__container {
+@media screen and (max-width: 800px) {
+  .grid__container {
 
-// display: grid;
-//     width: 95vw;
-//     flex-flow: row;
-//   gap: .25rem;
-// //   margin: auto;
-// //   width: min(60vw, 500px);
-// //   width: max(30vw, 500px);
+display: grid;
+    width: 95vw;
+    flex-flow: row;
+  gap: .25rem;
+//   margin: auto;
+//   width: min(60vw, 500px);
+//   width: max(30vw, 500px);
 
-// //   overflow: hidden;
-//   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-//   grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
-//   height: 91vh;
-//   margin: 2rem;
+//   overflow: hidden;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
+  height: 91vh;
+  margin: 2rem;
 
-//       grid-template-areas:
-//     "header header header header header"
-//     "display display display display display"
-//     "sidebar portfolio-a portfolio-a portfolio-a portfolio-a"
-//     "sidebar portfolio-c portfolio-c portfolio-c portfolio-c"
-//     "footer footer footer footer footer";
-
-
-
-    
-//   }
-
-//   .grid__portfolio {
-//   &-a {
-//   }
-
-//   &-b {
-//   padding: .75rem;
+      grid-template-areas:
+    "header header header header header"
+    "display display display display display"
+    "sidebar portfolio-a portfolio-a portfolio-a portfolio-a"
+    "sidebar portfolio-c portfolio-c portfolio-c portfolio-c"
+    "footer footer footer footer footer";
 
 
-//     display: none;
-//   }
-//   &-c {
-//   }
-//   &-d {
-//   padding: rem;
-
-//         display: none;
-
-//   }
-// }}
-
-// @media screen and (min-width: 1200px) {
-
-// .grid__container {}
 
     
-// }
+  }
+
+  .grid__portfolio {
+  &-a {
+  }
+
+  &-b {
+  padding: .75rem;
+
+
+    display: none;
+  }
+  &-c {
+  }
+  &-d {
+  padding: rem;
+
+        display: none;
+
+  }
+}}
+
+@media screen and (min-width: 1200px) {
+
+.grid__container {}
+
+    
+}

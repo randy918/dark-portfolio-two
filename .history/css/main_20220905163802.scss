@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
 
 //   overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.75fr 1.75fr 1fr 1fr 1fr 0.75fr;
+  grid-template-rows: 0.75fr 1.75fr 1fr 0.75fr;
   height: 91vh;
   margin: 2rem;
   
@@ -96,8 +96,6 @@ body::-webkit-scrollbar {
     "header header header"
     "display display display"
     "portfolio-a portfolio-b portfolio-c"
-    "portfolio-d portfolio-e portfolio-f"
-    "portfolio-g portfolio-h portfolio-i"
     "footer footer footer";
 }
 
@@ -134,36 +132,27 @@ body::-webkit-scrollbar {
 
   &-a {
     grid-area: portfolio-a;
+    
   }
+
   &-b {
+
     grid-area: portfolio-b;
   }
   &-c {
-    grid-area: portfolio-c;
+    grid-area: portfolio-a;
+    
   }
-  &-d {
-    grid-area: portfolio-d;
-  }
-  &-e {
-    grid-area: portfolio-e;
-  }
-  &-f {
-    grid-area: portfolio-f;
-  }
-  &-g {
-    grid-area: portfolio-g;
-  }
-  &-h {
-    grid-area: portfolio-h;
-  }
-  &-i {
-    grid-area: portfolio-i;
+
+  &-b {
+
+    grid-area: portfolio-b;
   }
 }
 
 .grid__footer {
   grid-area: footer;
-//   padding: 1rem;
+  padding: 1rem;
 
 }
 
