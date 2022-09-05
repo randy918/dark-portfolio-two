@@ -9,7 +9,7 @@ const main = function () {
         clickable: true,
     },
     lazyloading: true,
-    loop: true,
+    loop: true;
   });
 };
 

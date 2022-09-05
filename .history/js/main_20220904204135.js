@@ -8,8 +8,6 @@ const main = function () {
         el: "#swiper-1 .swiper-pagination",
         clickable: true,
     },
-    lazyloading: true,
-    loop: true,
   });
 };
 
