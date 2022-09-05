@@ -51,6 +51,8 @@ body::-webkit-scrollbar {
 .grid__header {
   grid-area: header;
   background-color: rgb(33, 33, 33);
+  padding-top: 1vw;
+  padding-bottom: 1vw;
 }
 
 .grid__display {
@@ -173,6 +175,14 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 800px) {
   .grid__container {
+    display: grid;
+    width: 95vw;
+    flex-flow: row;
+    gap: 0.25rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
+    height: 91vh;
+    margin: 2rem;
     grid-template-areas: "header header header header header" "display display display display display" "sidebar portfolio-a portfolio-a portfolio-a portfolio-a" "sidebar portfolio-c portfolio-c portfolio-c portfolio-c" "footer footer footer footer footer";
   }
   .grid__portfolio-b {
