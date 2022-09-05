@@ -65,7 +65,7 @@ body {
    margin: 0 auto;
   width: min(1300px, calc(80% + 100px));
   min-width: 0;
-    caret-color: transparent;
+   
 
 }
 body::-webkit-scrollbar {
@@ -78,6 +78,7 @@ body::-webkit-scrollbar {
     width: 95vw;
     flex-flow: row;
   gap: .75rem;
+   cursor: none;
 //   margin: auto;
 //   width: min(60vw, 500px);
 //   width: max(30vw, 500px);

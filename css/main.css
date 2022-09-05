@@ -24,6 +24,7 @@ body {
   margin: 0 auto;
   width: min(1300px, 80% + 100px);
   min-width: 0;
+  caret-color: transparent;
 }
 
 body::-webkit-scrollbar {
@@ -123,12 +124,18 @@ body::-webkit-scrollbar {
   width: 100%;
 }
 
-.swiper-1 .swiper-pagination {
-  bottom: 2rems;
+#swiper-1 .swiper-pagination {
+  bottom: 1vw;
 }
 
-.swiper-1 .swiper-pagination-bullet {
+#swiper-1 .swiper-pagination-bullet {
   opacity: 1;
+  background-color: white;
+}
+
+#swiper-1 .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: red;
 }
 
 @media screen and (max-width: 800px) {

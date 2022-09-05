@@ -65,7 +65,6 @@ body {
    margin: 0 auto;
   width: min(1300px, calc(80% + 100px));
   min-width: 0;
-    caret-color: transparent;
 
 }
 body::-webkit-scrollbar {
@@ -191,16 +190,12 @@ body::-webkit-scrollbar {
 }
 
 #swiper-1 .swiper-pagination {
-bottom: 1vw;
-}
-#swiper-1 .swiper-pagination-bullet {
-opacity: 1;
-background-color: white;
+bottom: 0vw;
+
 
 }
-#swiper-1 .swiper-pagination-bullet-active {
+.swiper-1 .swiper-pagination-bullet {
 opacity: 1;
-background-color: red;
 
 }
 
