@@ -177,20 +177,12 @@ body::-webkit-scrollbar {
 
 
 .swiper {
-    height: 100%;
- 
-}
-
-.swiper-wrapper{
-
-     position: relative;
-     text-align: center;
-
-
+    height: 100%
 }
 
 .swiper-slide {
-    width: 100%!important;
+    width: 100%!important
+    position: relative
 }
 
 .swiper-slide img {
@@ -220,25 +212,9 @@ background-color: red;
 
 }
 
-.swiper-title-1 {
-position: absolute;
-top: 0; left: 2vw;
-    color: white;
-}
-.swiper-title-2 {
-position: absolute;
-top: 0; left: 2vw;
-    color: white;
-}
-.swiper-title-3 {
-position: absolute;
-top: 0; left: 2vw;
-    color: white;
-}
-.swiper-title-4 {
-position: absolute;
-top: 0; left: 2vw;
-    color: white;
+.swiper-1__text--title {
+
+    
 }
 
 @media screen and (max-width: 800px) {

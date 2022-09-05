@@ -110,6 +110,11 @@ body::-webkit-scrollbar {
   height: 100%;
 }
 
+.swiper-wrapper {
+  position: relative;
+  text-align: center;
+}
+
 .swiper-slide {
   width: 100% !important;
 }
@@ -122,6 +127,7 @@ body::-webkit-scrollbar {
   -o-object-position: center;
   object-position: center;
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 #swiper-1 .swiper-pagination {
@@ -136,6 +142,34 @@ body::-webkit-scrollbar {
 #swiper-1 .swiper-pagination-bullet-active {
   opacity: 1;
   background-color: red;
+}
+
+.swiper-title-1 {
+  position: absolute;
+  top: 0;
+  left: 2vw;
+  color: white;
+}
+
+.swiper-title-2 {
+  position: absolute;
+  top: 0;
+  left: 2vw;
+  color: white;
+}
+
+.swiper-title-3 {
+  position: absolute;
+  top: 0;
+  left: 2vw;
+  color: white;
+}
+
+.swiper-title-4 {
+  position: absolute;
+  top: 0;
+  left: 2vw;
+  color: white;
 }
 
 @media screen and (max-width: 800px) {
