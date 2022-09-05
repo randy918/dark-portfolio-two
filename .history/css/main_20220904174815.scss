@@ -1,0 +1,217 @@
+$colors: (
+  bg: rgba(55, 66, 76, 1),
+  theGreen: rgba(0, 173, 43, 1),
+  theRed: rgba(194, 47, 51, 1),
+  theOrange: rgba(255, 103, 0, 1),
+  theRodeoPink: #f1a1a4,
+  theRodeoBlue: #7f86b0,
+  theYellow: rgb(221, 172, 94),
+  theGray: rgb(78, 92, 107),
+  theBackground: rgba(241, 227, 214, 1),
+  theDarkGray: rgba(43, 50, 56, 1),
+  theBrown: rgba(101, 42, 36, 1),
+  bitByBitRed: rgba(240, 44, 80, 1),
+  bitByBitBlue: rgba(0, 79, 136, 1),
+  bitByBitBlonde: rgba(241, 227, 214, 1),
+  coolGrey50: rgb(245, 247, 250),
+  coolGrey100: rgb(228, 231, 235),
+  coolGrey200: rgb(203, 210, 217),
+  coolGrey300: rgb(154, 165, 177),
+  coolGrey400: rgb(123, 135, 148),
+  coolGrey500: rgb(97, 110, 124),
+  coolGrey600: rgb(82, 96, 109),
+  coolGrey700: rgb(62, 76, 89),
+  coolGrey800: rgb(50, 63, 75),
+  coolGrey900: rgb(31, 41, 51),
+  grey200: rgb(255, 255, 255),
+  grey400: rgb(170, 170, 170),
+  grey600: rgb(61, 61, 61),
+  grey800: rgb(33, 33, 33),
+  grey1000: rgb(24, 24, 24),
+  grey5000: rgb(12, 12, 12),
+  grey10000: rgb(0, 0, 0),
+);
+
+@function getColor($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+* {
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    border: none;
+  }
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  figure,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+}
+
+body {
+  background-color: getColor(grey1000);
+  display: flex;
+  justify-content: center;
+    align-items: center;
+   margin: 0 auto;
+  width: min(1300px, calc(80% + 100px));
+
+}
+body::-webkit-scrollbar {
+  width: 12px;    
+  
+//   width: min(1000px, calc(70% + 100px));
+}
+.grid__container {
+  display: grid;
+    width: 95vw;
+    flex-flow: row;
+  gap: .75rem;
+//   margin: auto;
+//   width: min(60vw, 500px);
+//   width: max(30vw, 500px);
+
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
+  height: 91vh;
+  margin: 2rem;
+  
+  grid-template-areas:
+    "header header header header header"
+    "display display display display display"
+    "sidebar portfolio-a portfolio-a portfolio-b portfolio-b"
+    "sidebar portfolio-c portfolio-c portfolio-d portfolio-d"
+    "footer footer footer footer footer";
+}
+
+.grid__item {
+  background-color: getColor(grey800);
+  border-radius: 0.5rem;
+  
+}
+
+.grid__header {
+  grid-area: header;
+  background-color: getColor(grey800);
+}
+
+.grid__display {
+  grid-area: display;
+// padding: 2vw;
+//    max-height: 330px;
+ object-fit: contain;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.grid__sidebar {
+  grid-area: sidebar;
+  min-width: 100px;
+}
+
+.grid__portfolio {
+
+  &-a {
+    grid-area: portfolio-a;
+    
+  }
+
+  &-b {
+
+    grid-area: portfolio-b;
+  }
+  &-c {
+
+    grid-area: portfolio-c;
+  }
+  &-d {
+
+    grid-area: portfolio-d;
+  }
+}
+
+.grid__footer {
+  grid-area: footer;
+  padding: 1rem;
+
+}
+
+.flex__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex__display{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: getColor(grey800);
+    border-radius: 0.5rem;
+    padding: .75rem;
+    overflow: hidden;
+    justify-content:  space-around;
+   
+}
+
+
+.swiper-wrapper {
+
+    flex-basis: calc(100% / 3 * 2);
+    width: 100^
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .grid__container {
+
+      grid-template-areas:
+    "header header header header header"
+    "display display display display display"
+    "sidebar portfolio-a portfolio-a portfolio-a portfolio-a"
+    "sidebar portfolio-c portfolio-c portfolio-c portfolio-c"
+    "footer footer footer footer footer";
+  }
+
+  .grid__portfolio {
+  &-a {
+  }
+
+  &-b {
+  padding: .75rem;
+
+
+    display: none;
+  }
+  &-c {
+  }
+  &-d {
+  padding: rem;
+
+        display: none;
+
+  }
+}}
+
+@media screen and (min-width: 1200px) {
+
+.grid__container {}
+
+    
+}
