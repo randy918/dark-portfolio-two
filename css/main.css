@@ -102,7 +102,6 @@ body::-webkit-scrollbar {
   height: 100%;
   background-color: rgb(33, 33, 33);
   border-radius: 0.5rem;
-  padding: 0.75rem;
   overflow: hidden;
   justify-content: space-around;
 }
