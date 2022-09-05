@@ -123,6 +123,14 @@ body::-webkit-scrollbar {
   width: 100%;
 }
 
+.swiper-1 .swiper-pagination {
+  bottom: 2rems;
+}
+
+.swiper-1 .swiper-pagination-bullet {
+  opacity: 1;
+}
+
 @media screen and (max-width: 800px) {
   .grid__container {
     grid-template-areas: "header header header header header" "display display display display display" "sidebar portfolio-a portfolio-a portfolio-a portfolio-a" "sidebar portfolio-c portfolio-c portfolio-c portfolio-c" "footer footer footer footer footer";

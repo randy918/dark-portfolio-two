@@ -189,15 +189,7 @@ body::-webkit-scrollbar {
     width: 100%
 }
 
-.swiper-1 .swiper-pagination {
-bottom: 2rems;
-
-
-}
-.swiper-1 .swiper-pagination-bullet {
-opacity: 1;
-
-}
+.slider-1 slider-pagination{}
 
 @media screen and (max-width: 800px) {
   .grid__container {

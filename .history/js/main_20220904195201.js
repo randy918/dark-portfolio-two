@@ -6,7 +6,7 @@ const main = function () {
     },
     pagination: {
         el: "#swiper-1 .swiper-pagination",
-        clickable: true,
+        clickable: true;
 
     },
   });

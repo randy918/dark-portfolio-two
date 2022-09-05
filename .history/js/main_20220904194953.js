@@ -4,11 +4,7 @@ const main = function () {
     autoplay: {
       delay: 5000,
     },
-    pagination: {
-        el: "#swiper-1 .swiper-pagination",
-        clickable: true,
-
-    },
+    pagination: {},
   });
 };
 
