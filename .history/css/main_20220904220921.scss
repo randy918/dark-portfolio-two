@@ -86,7 +86,7 @@ body::-webkit-scrollbar {
 //   width: min(60vw, 500px);
 //   width: max(30vw, 500px);
 
-//   overflow: hidden;
+  overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
   height: 91vh;
@@ -225,7 +225,7 @@ position: absolute;
 top: 0; left: 2vw;
     color: white;
 }
-.swiper-title-2 {
+.swiper-title- {
 position: absolute;
 top: 0; left: 2vw;
     color: white;

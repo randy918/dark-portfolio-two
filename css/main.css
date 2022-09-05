@@ -36,7 +36,6 @@ body::-webkit-scrollbar {
   width: 95vw;
   flex-flow: row;
   gap: 0.75rem;
-  overflow: hidden;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.75fr 1.75fr 2fr 2fr 0.75fr;
   height: 91vh;
