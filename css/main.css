@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
   grid-area: header;
   background-color: rgb(33, 33, 33);
   padding-top: 1vw;
-  padding-bottom: 1vw;
+  padding-bottom: 0.5vw;
 }
 
 .grid__display {
@@ -97,6 +97,8 @@ body::-webkit-scrollbar {
 
 .grid__footer {
   grid-area: footer;
+  padding-top: 1vw;
+  padding-bottom: 0.5vw;
 }
 
 .flex__container {
