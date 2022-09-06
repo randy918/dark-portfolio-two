@@ -1,3 +1,6 @@
+* {
+  border-radius: 0.25rem;
+}
 * *::before,
 * *::after {
   box-sizing: border-box;
@@ -116,7 +119,7 @@ body::-webkit-scrollbar {
   justify-content: space-around;
 }
 
-flex__portfolio-a img {
+.flex__portfolio-a {
   transition: all 0.2s;
   background-image: url("/img/9-02-21.1337-original-hummingbird-interior-downtown-fredericksburg.png");
 }
@@ -126,7 +129,7 @@ flex__portfolio-a img {
   background-image: url("/img/3-19-21.0627-original-magnolia-interior-fredericksburg.png");
 }
 
-.grid-item img {
+img {
   border-radius: 0.25rem;
 }
 
