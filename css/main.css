@@ -110,6 +110,19 @@ body::-webkit-scrollbar {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+h4 {
+  font-size: 3vw;
+  color: white;
+}
+
+.doit {
+  position: absolute;
+  top: 0;
+  left: 2vw;
+  z-index: 1000;
 }
 
 .flex__display {
@@ -143,6 +156,10 @@ body::-webkit-scrollbar {
   transition: all 0.5s ease;
 }
 
+a {
+  position: relative;
+}
+
 .img-container img:first-child {
   position: relative;
 }
@@ -161,6 +178,14 @@ body::-webkit-scrollbar {
 
 img {
   border-radius: 0.25rem;
+}
+
+.text-a {
+  position: absolute;
+  top: 52vw;
+  left: 11vw;
+  font-size: 3.5vw;
+  z-index: 100;
 }
 
 .swiper {

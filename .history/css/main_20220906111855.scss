@@ -185,15 +185,15 @@ body::-webkit-scrollbar {
 }
 
 h4 {
-font-size: 3vw;
-color: white;
+;
 }
 
 .doit{
+    font-size: 3vw;
+color: white
     position: absolute;
     top: 0;
-    left: 2vw;
-    z-index: 1000;
+    left: 0;
 }
 
 .flex__display{

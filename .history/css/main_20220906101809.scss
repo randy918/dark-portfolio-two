@@ -61,7 +61,11 @@ $colors: (
 
 h1{font-size: 6vw}
 
-
+h4{
+position: absolute;
+top: 0;
+   zp
+}
 
 body {
   background-color: getColor(grey1000);
@@ -179,23 +183,9 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
     
     
 }
-
-h4 {
-font-size: 3vw;
-color: white;
-}
-
-.doit{
-    position: absolute;
-    top: 0;
-    left: 2vw;
-    z-index: 1000;
-}
-
 .flex__display{
     display: flex;
     flex-direction: row;
@@ -230,8 +220,6 @@ background-image:url("/img/3-19-21.0627-original-magnolia-interior-fredericksbur
   transition: all .5s ease;
 }
 
-a{position: relative}
-
 .img-container img:first-child {
   position: relative;
 }
@@ -252,16 +240,6 @@ a{position: relative}
 img {
 
      border-radius: 0.25rem;
-}
-
-
-.text-a{
-
-position: absolute;
-top: 52vw;
-left: 11vw;
-font-size: 3.5vw;
-z-index: 100;
 }
 
 .swiper {

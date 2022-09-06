@@ -179,23 +179,10 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    
-    
-}
-
-h4 {
-font-size: 3vw;
-color: white;
-}
-
-.doit{
     position: absolute;
-    top: 0;
-    left: 2vw;
-    z-index: 1000;
+    
+    
 }
-
 .flex__display{
     display: flex;
     flex-direction: row;
