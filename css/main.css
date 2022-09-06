@@ -135,6 +135,30 @@ body::-webkit-scrollbar {
   background-image: url("/img/3-19-21.0627-original-magnolia-interior-fredericksburg.png");
 }
 
+.img-container {
+  position: relative;
+}
+
+.img-container img {
+  transition: all 0.5s ease;
+}
+
+.img-container img:first-child {
+  position: relative;
+}
+
+.img-container img:last-child {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.img-container:hover img:last-child {
+  opacity: 1;
+}
+
 img {
   border-radius: 0.25rem;
 }

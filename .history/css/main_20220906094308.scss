@@ -205,12 +205,14 @@ background-image:url("/img/3-19-21.0627-original-magnolia-interior-fredericksbur
 }
 .img-container {
   position: relative;
+  display: inline-block;
 }
 
 .img-container img {
-  
-//   vertical-align: middle;
-//   object-fit: cover;
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  object-fit: cover;
   transition: all .5s ease;
 }
 
