@@ -135,7 +135,14 @@ body::-webkit-scrollbar {
 
   &-a {
     grid-area: portfolio-a;
+
   }
+
+    &-a:hover {
+        background: url("./") no-repeat;
+    }
+
+
   &-b {
     grid-area: portfolio-b;
   }

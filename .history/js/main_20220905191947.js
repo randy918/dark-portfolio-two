@@ -12,10 +12,17 @@ const main = function () {
     loop: true,
   });
 
+<a href="#" id="name">
+  <img
+    title="Hello"
+    src="/ico/view.png"
+    onmouseover="this.src='/ico/view.hover.png'"
+    onmouseout="this.src='/ico/view.png'"
+  />
+</a>;
 
 
 
-  
 };
 
 const init = function () {

@@ -135,7 +135,16 @@ body::-webkit-scrollbar {
 
   &-a {
     grid-area: portfolio-a;
+
   }
+
+    &-a:hover {
+        background-image: url("./"=) no-repeat;
+    }
+.change_img:hover {
+    background-image: url(image2.jpg);
+}
+
   &-b {
     grid-area: portfolio-b;
   }

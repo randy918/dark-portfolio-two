@@ -12,7 +12,14 @@ const main = function () {
     loop: true,
   });
 
-
+<a href="#" id="name">
+  <img
+    title="Hello"
+    src="/ico/view.png"
+    onmouseover="9-02-21.1337-original-wildflower-exterior-downtown-fredericksburg.png"
+    onmouseout="this.src='/ico/view.png'"
+  />
+</a>;
 
 
   

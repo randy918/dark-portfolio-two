@@ -135,7 +135,14 @@ body::-webkit-scrollbar {
 
   &-a {
     grid-area: portfolio-a;
+
   }
+
+    &:hover {
+        background: url("images/card-front.jpg") no-repeat;
+    }
+
+
   &-b {
     grid-area: portfolio-b;
   }

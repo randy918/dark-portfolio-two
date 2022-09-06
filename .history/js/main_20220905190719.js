@@ -10,12 +10,7 @@ const main = function () {
     },
     lazyloading: true,
     loop: true,
-  });
-
-
-
-
-  
+  });\
 };
 
 const init = function () {
