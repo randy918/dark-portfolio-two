@@ -188,13 +188,13 @@ body::-webkit-scrollbar {
     overflow: hidden;
     justify-content:  space-around;
 
-.flex__portfolio-a {
-transition: all 0.2s; 
-background-image:url("/img/9-02-21.1337-original-hummingbird-interior-downtown-fredericksburg.png"); 
 }
-.flex__portfolio-a:hover {
-transition: all 0.2s; 
-background-image:url("/img/3-19-21.0627-original-magnolia-interior-fredericksburg.png"); 
+
+.grid__portfolio-b img {
+
+transition: all 0.2s; background-image:url("/"); width: 150px; height: 150px;
+
+
 }
 
 
