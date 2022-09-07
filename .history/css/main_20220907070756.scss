@@ -117,8 +117,8 @@ body::-webkit-scrollbar {
 .grid__header {
   grid-area: header;
   background-color: getColor(grey800);
-  padding-top: 3vw;
-  padding-bottom: 1.5vw;
+  padding-top: vw;
+  padding-bottom: .5vw;
   
 
 }
@@ -432,8 +432,8 @@ body::-webkit-scrollbar {
 .grid__header {
   grid-area: header;
   background-color: getColor(grey800);
-  padding-top: 3vw;
-  padding-bottom: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: .5vw;
   
 
 }

@@ -117,8 +117,8 @@ body::-webkit-scrollbar {
 .grid__header {
   grid-area: header;
   background-color: getColor(grey800);
-  padding-top: 3vw;
-  padding-bottom: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: .5vw;
   
 
 }
@@ -404,7 +404,7 @@ body::-webkit-scrollbar {
 
 //   overflow: hidden;
   grid-template-columns: 1fr;
-  grid-template-rows: .25fr .75fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr 0.25fr;
+  grid-template-rows: 2.25fr .75fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr 0.25fr;
   height: 91vh;
   margin: 0rem;
   
@@ -432,8 +432,8 @@ body::-webkit-scrollbar {
 .grid__header {
   grid-area: header;
   background-color: getColor(grey800);
-  padding-top: 3vw;
-  padding-bottom: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: .5vw;
   
 
 }

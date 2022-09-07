@@ -117,8 +117,8 @@ body::-webkit-scrollbar {
 .grid__header {
   grid-area: header;
   background-color: getColor(grey800);
-  padding-top: 3vw;
-  padding-bottom: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: .5vw;
   
 
 }
@@ -185,9 +185,9 @@ body::-webkit-scrollbar {
 }
 
 h1{
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.75),
-             0px 8px 13px rgba(0,0,0,0.21),
-             0px 18px 23px rgba(0,0,0,0.21);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 h4 {
@@ -403,23 +403,23 @@ body::-webkit-scrollbar {
 //   width: max(30vw, 500px);
 
 //   overflow: hidden;
-  grid-template-columns: 1fr;
-  grid-template-rows: .25fr .75fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr 0.25fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .25fr .75fr .5fr .5fr .5fr .5fr .5fr 0.25fr;
   height: 91vh;
   margin: 0rem;
   
   grid-template-areas:
-    "header"
-    "display"
+    "header header"
+    "display display"
     "portfolio-a"
     "portfolio-b"
     "portfolio-c"
     "portfolio-d"
     "portfolio-e"
     "portfolio-f"
-    "portfolio-g"
-    "portfolio-h"
-    "footer";
+    "portfolio-g portfolio-h"
+    "portfolio-g portfolio-h"
+    "footer footer";
 }
 
 .grid__item {
@@ -432,8 +432,8 @@ body::-webkit-scrollbar {
 .grid__header {
   grid-area: header;
   background-color: getColor(grey800);
-  padding-top: 3vw;
-  padding-bottom: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: .5vw;
   
 
 }
@@ -502,16 +502,16 @@ body::-webkit-scrollbar {
 h4 {
 font-size: 3vw;
 color: white;
-text-shadow: 0px 4px 3px rgba(0,0,0,0.75),
-             0px 8px 13px rgba(0,0,0,0.21),
-             0px 18px 23px rgba(0,0,0,0.21);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .doit{
     position: absolute;
-    font-size: 5vw;
-    top: 2vw;
-    left: 4vw;
+    font-size: 3vw;
+    top: 0vw;
+    left: 2vw;
     z-index: 1000;
 }
 
