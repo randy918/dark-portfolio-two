@@ -464,7 +464,8 @@ img {
   .swiper-title-1 {
     position: absolute;
     top: 0;
-    left: 2vw;
+    left: 4vw;
+    letter-spacing: -1;
     color: white;
   }
   .swiper-title-2 {
