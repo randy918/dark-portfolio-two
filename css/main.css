@@ -304,7 +304,7 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.25fr 0.75fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr;
     height: 91vh;
-    margin: 2rem;
+    margin: 0rem;
     grid-template-areas: "header header" "display display" "portfolio-a portfolio-b" "portfolio-c portfolio-d" "portfolio-e portfolio-f" "portfolio-g portfolio-h" "footer footer";
   }
   .grid__item {
@@ -370,7 +370,8 @@ img {
   }
   .doit {
     position: absolute;
-    top: 0;
+    font-size: 3vw;
+    top: 0vw;
     left: 2vw;
     z-index: 1000;
   }
@@ -385,6 +386,9 @@ img {
     border-radius: 0.25rem;
     overflow: hidden;
     justify-content: space-around;
+  }
+  .flex__item {
+    position: relative;
   }
   .flex__portfolio-a {
     transition: all 0.2s;
