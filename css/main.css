@@ -459,7 +459,7 @@ img {
   }
   #swiper-1 .swiper-pagination-bullet-active {
     opacity: 1;
-    background-color: red;
+    background-color: black;
   }
   .swiper-title-1 {
     position: absolute;
