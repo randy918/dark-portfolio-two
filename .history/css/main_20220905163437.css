@@ -1,0 +1,167 @@
+* *::before,
+* *::after {
+  box-sizing: border-box;
+  border: none;
+}
+* body,
+* h1,
+* h2,
+* h3,
+* h4,
+* p,
+* figure,
+* blockquote,
+* dl,
+* dd {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: min(1300px, 80% + 100px);
+  min-width: 0;
+  caret-color: transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+.grid__container {
+  display: grid;
+  width: 95vw;
+  flex-flow: row;
+  gap: 0.75vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.75fr 1.75fr 1fr 0.75fr;
+  height: 91vh;
+  margin: 2rem;
+  grid-template-areas: "header header header" "display display display" "portfolio-a portfolio-b portfolio-c" "footer footer";
+}
+
+.grid__item {
+  background-color: rgb(33, 33, 33);
+  border-radius: 0.5rem;
+}
+
+.grid__header {
+  grid-area: header;
+  background-color: rgb(33, 33, 33);
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.grid__display {
+  grid-area: display;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.grid__sidebar {
+  grid-area: sidebar;
+  min-width: 100px;
+}
+
+.grid__portfolio-a {
+  grid-area: portfolio-a;
+}
+.grid__portfolio-b {
+  grid-area: portfolio-b;
+}
+
+.grid__footer {
+  grid-area: footer;
+  padding: 1rem;
+}
+
+.flex__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex__display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(33, 33, 33);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  justify-content: space-around;
+}
+
+.swiper {
+  height: 100%;
+}
+
+.swiper-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.swiper-slide {
+  width: 100% !important;
+}
+
+.swiper-slide img {
+  background-color: red;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+#swiper-1 .swiper-pagination {
+  bottom: 1vw;
+}
+
+#swiper-1 .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: white;
+}
+
+#swiper-1 .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: red;
+}
+
+.swiper-title-1 {
+  position: absolute;
+  top: 0;
+  left: 2vw;
+  color: white;
+}
+
+.swiper-title-2 {
+  position: absolute;
+  top: 0;
+  left: 2vw;
+  color: white;
+}
+
+.swiper-title-3 {
+  position: absolute;
+  top: 0;
+  left: 2vw;
+  color: white;
+}
+
+.swiper-title-4 {
+  position: absolute;
+  top: 0;
+  left: 2vw;
+  color: white;
+}/*# sourceMappingURL=main_20220905163437.css.map */
