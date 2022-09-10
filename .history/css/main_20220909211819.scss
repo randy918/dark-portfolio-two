@@ -63,12 +63,6 @@ h1{ font-family: "museo";
     font-size: 6vw;
     font-weight: 900;
 }
-h2{ font-family: "museo";
-    font-size: 3vw;
-    font-weight: 100;
-    color: aqua;
-}
-
 
 
 
@@ -102,7 +96,7 @@ body::-webkit-scrollbar {
 
 //   overflow: hidden;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.25fr .75fr 2.5fr .5fr .5fr .5fr .5fr 0.25fr;
+  grid-template-rows: 0.25fr .75fr .5fr .5fr .5fr .5fr .5fr 0.25fr;
   height: 91vh;
   margin: 2rem;
   
@@ -142,14 +136,11 @@ body::-webkit-scrollbar {
   height: 100%;
 }
 
-.grid__subhead{
-    grid-area: subhead;
-}
+
 
 .grid__sidebar {
   grid-area: sidebar;
   min-width: 100px;
-  text-align: center;
 }
 
 .grid__portfolio {
@@ -241,12 +232,6 @@ background-image:url("/img/9-02-21.1337-original-hummingbird-interior-downtown-f
 transition: all 0.2s; 
 background-image:url("/img/3-19-21.0627-original-magnolia-interior-fredericksburg.png"); 
 }
-
-.flex__subhead{
-    padding-top: 2vw;
-    padding-bottom: 0vw;
-}
-
 .img-container {
   position: relative;
 }
