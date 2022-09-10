@@ -56,7 +56,7 @@ body::-webkit-scrollbar {
   grid-template-rows: 0.25fr 0.75fr 2.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr;
   height: 91vh;
   margin: 2rem;
-  grid-template-areas: "header header" "display display" "subhead subhead" "portfolio-a portfolio-b" "portfolio-c portfolio-d" "portfolio-f-bb portfolio-f-c" "portfolio-f-m portfolio-lt" "footer footer";
+  grid-template-areas: "header header" "display display" "subhead subhead" "portfolio-a portfolio-df-hb" "portfolio-df-wf portfolio-f-p" "portfolio-f-bb portfolio-f-c" "portfolio-f-m portfolio-lt" "footer footer";
 }
 
 .grid__item {
@@ -91,14 +91,14 @@ body::-webkit-scrollbar {
 .grid__portfolio-a {
   grid-area: portfolio-a;
 }
-.grid__portfolio-b {
-  grid-area: portfolio-b;
+.grid__portfolio-df-hb {
+  grid-area: portfolio-df-hb;
 }
-.grid__portfolio-c {
-  grid-area: portfolio-c;
+.grid__portfolio-df-wf {
+  grid-area: portfolio-df-wf;
 }
-.grid__portfolio-d {
-  grid-area: portfolio-d;
+.grid__portfolio-f-p {
+  grid-area: portfolio-f-p;
 }
 .grid__portfolio-f-bb {
   grid-area: portfolio-f-bb;
@@ -324,7 +324,7 @@ img {
     grid-template-rows: 0.25fr 0.75fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr;
     height: 91vh;
     margin: 0rem;
-    grid-template-areas: "header" "display" "portfolio-a" "portfolio-b" "portfolio-c" "portfolio-d" "portfolio-f-bb" "portfolio-f-c" "portfolio-f-m" "portfolio-lt" "footer";
+    grid-template-areas: "header" "display" "portfolio-a" "portfolio-df-hb" "portfolio-df-wf" "portfolio-f-p" "portfolio-f-bb" "portfolio-f-c" "portfolio-f-m" "portfolio-lt" "footer";
   }
   .grid__item {
     background-color: rgb(33, 33, 33);
@@ -349,14 +349,14 @@ img {
   .grid__portfolio-a {
     grid-area: portfolio-a;
   }
-  .grid__portfolio-b {
-    grid-area: portfolio-b;
+  .grid__portfolio-df-hb {
+    grid-area: portfolio-df-hb;
   }
-  .grid__portfolio-c {
-    grid-area: portfolio-c;
+  .grid__portfolio-df-wf {
+    grid-area: portfolio-df-wf;
   }
-  .grid__portfolio-d {
-    grid-area: portfolio-d;
+  .grid__portfolio-f-p {
+    grid-area: portfolio-f-p;
   }
   .grid__portfolio-f-bb {
     grid-area: portfolio-f-bb;

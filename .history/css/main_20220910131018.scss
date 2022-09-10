@@ -110,8 +110,8 @@ body::-webkit-scrollbar {
     "header header"
     "display display"
     "subhead subhead"
-    "portfolio-a portfolio-df-hb"
-    "portfolio-df-wf portfolio-f-p"
+    "portfolio-a portfolio-b"
+    "portfolio-c portfolio-f-p"
     "portfolio-f-bb portfolio-f-c"
     "portfolio-f-m portfolio-lt"
     "footer footer";
@@ -157,14 +157,14 @@ body::-webkit-scrollbar {
   &-a {
     grid-area: portfolio-a;
   }
-  &-df-hb {
-    grid-area: portfolio-df-hb;
+  &-b {
+    grid-area: portfolio-b;
   }
-  &-df-wf {
-    grid-area: portfolio-df-wf;
+  &-c {
+    grid-area: portfolio-c;
   }
-  &-f-p {
-    grid-area: portfolio-f-p;
+  &-d {
+    grid-area: portfolio-d;
   }
   &-f-bb {
     grid-area: portfolio-f-bb;
@@ -432,8 +432,8 @@ body::-webkit-scrollbar {
     "header"
     "display"
     "portfolio-a"
-    "portfolio-df-hb"
-    "portfolio-df-wf"
+    "portfolio-b"
+    "portfolio-c"
     "portfolio-f-p"
     "portfolio-f-bb"
     "portfolio-f-c"
@@ -479,11 +479,11 @@ body::-webkit-scrollbar {
   &-a {
     grid-area: portfolio-a;
   }
-  &-df-hb {
-    grid-area: portfolio-df-hb;
+  &-b {
+    grid-area: portfolio-b;
   }
-  &-df-wf {
-    grid-area: portfolio-df-wf;
+  &-c {
+    grid-area: portfolio-c;
   }
   &-f-p {
     grid-area: portfolio-f-p;
