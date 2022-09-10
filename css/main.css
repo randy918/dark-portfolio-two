@@ -30,6 +30,7 @@ h2 {
   font-size: 3vw;
   font-weight: 100;
   color: aqua;
+  opacity: 0.7;
 }
 
 body {
@@ -56,7 +57,7 @@ body::-webkit-scrollbar {
   grid-template-rows: 0.25fr 0.75fr 2.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr;
   height: 91vh;
   margin: 2rem;
-  grid-template-areas: "header header" "display display" "subhead subhead" "portfolio-a portfolio-df-hb" "portfolio-df-wf portfolio-f-p" "portfolio-f-bb portfolio-f-c" "portfolio-f-m portfolio-lt" "footer footer";
+  grid-template-areas: "header header" "display display" "subhead subhead" "portfolio-gci portfolio-df-hb" "portfolio-df-wf portfolio-f-p" "portfolio-f-bb portfolio-f-c" "portfolio-f-m portfolio-lt" "footer footer";
 }
 
 .grid__item {
@@ -88,8 +89,8 @@ body::-webkit-scrollbar {
   text-align: center;
 }
 
-.grid__portfolio-a {
-  grid-area: portfolio-a;
+.grid__portfolio-gci {
+  grid-area: portfolio-gci;
 }
 .grid__portfolio-df-hb {
   grid-area: portfolio-df-hb;
@@ -157,12 +158,12 @@ h4 {
   justify-content: space-around;
 }
 
-.flex__portfolio-a {
+.flex__portfolio-gci {
   transition: all 0.2s;
   background-image: url("/img/9-02-21.1337-original-hummingbird-interior-downtown-fredericksburg.png");
 }
 
-.flex__portfolio-a img:hover {
+.flex__portfolio-gci img:hover {
   transition: all 0.2s;
   background-image: url("/img/3-19-21.0627-original-magnolia-interior-fredericksburg.png");
 }
@@ -324,7 +325,7 @@ img {
     grid-template-rows: 0.25fr 0.75fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr;
     height: 91vh;
     margin: 0rem;
-    grid-template-areas: "header" "display" "portfolio-a" "portfolio-df-hb" "portfolio-df-wf" "portfolio-f-p" "portfolio-f-bb" "portfolio-f-c" "portfolio-f-m" "portfolio-lt" "footer";
+    grid-template-areas: "header" "display" "portfolio-gci" "portfolio-df-hb" "portfolio-df-wf" "portfolio-f-p" "portfolio-f-bb" "portfolio-f-c" "portfolio-f-m" "portfolio-lt" "footer";
   }
   .grid__item {
     background-color: rgb(33, 33, 33);
@@ -346,8 +347,8 @@ img {
     grid-area: sidebar;
     min-width: 100px;
   }
-  .grid__portfolio-a {
-    grid-area: portfolio-a;
+  .grid__portfolio-gci {
+    grid-area: portfolio-gci;
   }
   .grid__portfolio-df-hb {
     grid-area: portfolio-df-hb;
@@ -409,11 +410,11 @@ img {
   .flex__item {
     position: relative;
   }
-  .flex__portfolio-a {
+  .flex__portfolio-gci {
     transition: all 0.2s;
     background-image: url("/img/9-02-21.1337-original-hummingbird-interior-downtown-fredericksburg.png");
   }
-  .flex__portfolio-a img:hover {
+  .flex__portfolio-gci img:hover {
     transition: all 0.2s;
     background-image: url("/img/3-19-21.0627-original-magnolia-interior-fredericksburg.png");
   }

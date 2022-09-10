@@ -67,7 +67,7 @@ h2{ font-family: "museo";
     font-size: 3vw;
     font-weight: 100;
     color: aqua;
-    opacity: 0.7;
+    opac
 }
 
 
@@ -111,7 +111,7 @@ body::-webkit-scrollbar {
     "header header"
     "display display"
     "subhead subhead"
-    "portfolio-gci portfolio-df-hb"
+    "portfolio-a portfolio-df-hb"
     "portfolio-df-wf portfolio-f-p"
     "portfolio-f-bb portfolio-f-c"
     "portfolio-f-m portfolio-lt"
@@ -155,8 +155,8 @@ body::-webkit-scrollbar {
 
 .grid__portfolio {
 
-  &-gci {
-    grid-area: portfolio-gci;
+  &-a {
+    grid-area: portfolio-a;
   }
   &-df-hb {
     grid-area: portfolio-df-hb;
@@ -235,11 +235,11 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
 }
 
 
-.flex__portfolio-gci {
+.flex__portfolio-a {
 transition: all 0.2s; 
 background-image:url("/img/9-02-21.1337-original-hummingbird-interior-downtown-fredericksburg.png"); 
 }
-.flex__portfolio-gci img:hover {
+.flex__portfolio-a img:hover {
 transition: all 0.2s; 
 background-image:url("/img/3-19-21.0627-original-magnolia-interior-fredericksburg.png"); 
 }
@@ -432,7 +432,7 @@ body::-webkit-scrollbar {
   grid-template-areas:
     "header"
     "display"
-    "portfolio-gci"
+    "portfolio-a"
     "portfolio-df-hb"
     "portfolio-df-wf"
     "portfolio-f-p"
@@ -477,8 +477,8 @@ body::-webkit-scrollbar {
 
 .grid__portfolio {
 
-  &-gci {
-    grid-area: portfolio-gci;
+  &-a {
+    grid-area: portfolio-a;
   }
   &-df-hb {
     grid-area: portfolio-df-hb;
@@ -554,11 +554,11 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.75),
     position: relative;
 }
 
-.flex__portfolio-gci {
+.flex__portfolio-a {
 transition: all 0.2s; 
 background-image:url("/img/9-02-21.1337-original-hummingbird-interior-downtown-fredericksburg.png"); 
 }
-.flex__portfolio-gci img:hover {
+.flex__portfolio-a img:hover {
 transition: all 0.2s; 
 background-image:url("/img/3-19-21.0627-original-magnolia-interior-fredericksburg.png"); 
 }
