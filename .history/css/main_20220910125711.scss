@@ -112,7 +112,7 @@ body::-webkit-scrollbar {
     "subhead subhead"
     "portfolio-a portfolio-b"
     "portfolio-c portfolio-d"
-    "portfolio-e portfolio-f-c"
+    "portfolio-e portfolio-f"
     "portfolio-f-m portfolio-lt"
     "footer footer";
 }
@@ -169,10 +169,10 @@ body::-webkit-scrollbar {
   &-e {
     grid-area: portfolio-e;
   }
-  &-f-c {
-    grid-area: portfolio-f-c;
+  &-f {
+    grid-area: portfolio-f;
   }
-  &-f-m {
+  &-g {
     grid-area: portfolio-f-m;
   }
   &-lt {
@@ -436,7 +436,7 @@ body::-webkit-scrollbar {
     "portfolio-c"
     "portfolio-d"
     "portfolio-e"
-    "portfolio-f-c"
+    "portfolio-f"
     "portfolio-f-m"
     "portfolio-lt"
     "footer";
@@ -492,7 +492,7 @@ body::-webkit-scrollbar {
     grid-area: portfolio-e;
   }
   &-f {
-    grid-area: portfolio-f-c;
+    grid-area: portfolio-f;
   }
   &-g {
     grid-area: portfolio-f-m;
