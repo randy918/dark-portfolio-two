@@ -507,11 +507,10 @@ body::-webkit-scrollbar {
   &-f-m {
     grid-area: portfolio-f-m;
   }
-  &-flex__subhead {
-    grid-area: portfolio-flex__subhead;
-  } 
-  &-flex__subhead2 {
-    grid-area: portfolio-flex__subhead2;
+  &-lt {
+    grid-area: portfolio-lt;
+  } &-lt {
+    grid-area: portfolio-lt;
   }
 }
 

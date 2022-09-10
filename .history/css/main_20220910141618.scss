@@ -441,7 +441,7 @@ body::-webkit-scrollbar {
     "display"
     "subhead"
     "portfolio-df-hb"
-    "subhead2"
+    subhead2"
     "portfolio-df-wf"
     "portfolio-f-p"
     "portfolio-f-bb"
@@ -507,11 +507,8 @@ body::-webkit-scrollbar {
   &-f-m {
     grid-area: portfolio-f-m;
   }
-  &-flex__subhead {
-    grid-area: portfolio-flex__subhead;
-  } 
-  &-flex__subhead2 {
-    grid-area: portfolio-flex__subhead2;
+  &-lt {
+    grid-area: portfolio-lt;
   }
 }
 
