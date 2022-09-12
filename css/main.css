@@ -66,6 +66,10 @@ h6 {
   text-align: center;
 }
 
+#Layer_1 svg:hover {
+  fill: black;
+}
+
 body {
   background-color: rgb(24, 24, 24);
   display: flex;
@@ -201,10 +205,14 @@ h4 {
 
 .visit {
   margin-top: -3vw;
-  width: 22%;
+  width: 25%;
   padding-bottom: 2vw;
   display: block;
   margin: auto;
+}
+
+.visit:hover {
+  filter: grayscale(100%) sepia(100%);
 }
 
 .flex__display {

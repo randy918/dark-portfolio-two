@@ -101,7 +101,7 @@ h6{font-family: "museo";
 text-align: center;
 }
 
-#Layer_1 svg:hover {
+.flex__portfolio-df-hb svg:hover {
 
 fill: black;
 
@@ -283,17 +283,10 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
 .visit{
 
 margin-top: -3vw;
-width: 25%;
+width: 22%;
 padding-bottom: 2vw;
 display: block;
  margin: auto
-}
-
-.visit:hover{
-
-filter: grayscale(100%) sepia(100%);
-
-
 }
 
 .flex__display{
