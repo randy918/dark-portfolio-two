@@ -33,6 +33,27 @@ h2 {
   opacity: 0.7;
 }
 
+h3 {
+  font-family: "museo";
+  font-size: 2vw;
+  font-weight: 300;
+  color: aqua;
+  opacity: 0.7;
+  text-align: center;
+  padding-top: 1vw;
+}
+
+h5 {
+  font-family: "museo";
+  font-size: 4vw;
+  font-weight: 300;
+  color: black;
+  opacity: 0.7;
+  padding-top: 0;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+}
+
 body {
   background-color: rgb(24, 24, 24);
   display: flex;
@@ -54,10 +75,12 @@ body::-webkit-scrollbar {
   flex-flow: row;
   gap: 1.75vw;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.25fr 0.75fr 2.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr;
+  grid-template-rows: 0.25fr 0.75fr 1fr 2.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr;
   height: 91vh;
   margin: 2rem;
-  grid-template-areas: "header header" "display display" "subhead subhead" "portfolio-df-hb portfolio-df-wf" "subhead2 subhead2" "portfolio-f-p portfolio-f-bb" "portfolio-f-c portfolio-f-m" "portfolio-lt portfolio-gci" "footer footer";
+  grid-template-areas: "header header" "display display" "welcome welcome" "subhead subhead" "portfolio-df-hb portfolio-df-wf" "subhead2 subhead2" "portfolio-f-p portfolio-f-bb" "portfolio-f-c portfolio-f-m" "portfolio-lt portfolio-gci" "managed managed" "footer footer";
+  align-items: start;
+  justify-content: center;
 }
 
 .grid__item {
@@ -85,6 +108,17 @@ body::-webkit-scrollbar {
 
 .grid__subhead2 {
   grid-area: subhead2;
+}
+
+.grid__welcome {
+  grid-area: welcome;
+  background-color: aqua;
+}
+
+.grid__managed {
+  grid-area: managed;
+  background-color: aqua;
+  padding-top: 2vw;
 }
 
 .grid__sidebar {
@@ -162,19 +196,21 @@ h4 {
   justify-content: space-around;
 }
 
-.flex__portfolio-gci {
-  transition: all 0.2s;
-  background-image: url("/img/9-02-21.1337-original-hummingbird-interior-downtown-fredericksburg.png");
-}
-
-.flex__portfolio-gci img:hover {
-  transition: all 0.2s;
-  background-image: url("/img/3-19-21.0627-original-magnolia-interior-fredericksburg.png");
-}
-
 .flex__subhead {
   padding-top: 2vw;
   padding-bottom: 0vw;
+}
+
+.flex__subhead2 {
+  padding-top: 2vw;
+  padding-bottom: 0vw;
+}
+
+.flex__welcome {
+  padding-top: 2vw;
+  padding-bottom: 0vw;
+  background-color: aqua;
+  color: black;
 }
 
 .img-container {
