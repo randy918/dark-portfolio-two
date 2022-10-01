@@ -90,6 +90,19 @@ h6 {
   text-align: center;
 }
 
+.mail-to {
+  font-family: "palatino_lt_stdroman";
+  text-decoration: none;
+  font-size: 1.25vw;
+  line-height: 1.5vw;
+  color: red;
+  margin-bottom: -1vw;
+}
+
+.mail-to:hover {
+  color: blue;
+}
+
 #Layer_1 svg:hover {
   fill: black;
 }
