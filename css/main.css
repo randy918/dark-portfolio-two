@@ -19,14 +19,38 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "palatino_lt_stdblack";
+  src: url("/./fonts/palatinoltstd_black-webfont.woff2") format("woff2"), url("/./fonts/palatinoltstd_black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "palatino_lt_stdbold";
+  src: url("/./fonts/palatinoltstd_bold-webfont.woff2") format("woff2"), url("/./fonts/palatinoltstd_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "palatino_lt_stditalic";
+  src: url("/./fonts/palatinoltstd_italic-webfont.woff2") format("woff2"), url("/./fonts/palatinoltstd_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "palatino_lt_stdroman";
+  src: url("/./fonts/palatinoltstd_roman-webfont.woff2") format("woff2"), url("/./fonts/palatinoltstd_roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 h1 {
-  font-family: "museo";
+  font-family: "palatino_lt_stdbold";
   font-size: 6vw;
   font-weight: 900;
 }
 
 h2 {
-  font-family: "museo";
+  font-family: "palatino_lt_stdroman";
   font-size: 3vw;
   font-weight: 100;
   color: aqua;
@@ -34,7 +58,7 @@ h2 {
 }
 
 h3 {
-  font-family: "museo";
+  font-family: "palatino_lt_stdbold";
   font-size: 2.5vw;
   font-weight: 700;
   color: aqua;
@@ -44,7 +68,7 @@ h3 {
 }
 
 h5 {
-  font-family: "museo";
+  font-family: "palatino_lt_stdroman";
   font-size: 4vw;
   font-weight: 300;
   color: black;
@@ -55,7 +79,7 @@ h5 {
 }
 
 h6 {
-  font-family: "museo";
+  font-family: "palatino_lt_stdroman";
   font-size: 1.5vw;
   font-weight: 300;
   color: aqua;
