@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   border-radius: 0.25rem;
 }
@@ -58,12 +59,13 @@ h2 {
 }
 
 h3 {
-  font-family: "palatino_lt_stdbold";
+  font-family: "palatino_lt_stdroman";
   font-size: 2.5vw;
   font-weight: 700;
   color: black;
   opacity: 0.7;
   text-align: center;
+  line-height: 1;
   padding-top: 1vw;
 }
 
@@ -92,7 +94,7 @@ h6 {
 .mail-to {
   font-family: "palatino_lt_stdroman";
   text-decoration: none;
-  font-size: 1.25vw;
+  font-size: 1.45vw;
   line-height: 1.5vw;
   color: rgb(161, 224, 249);
   margin-bottom: -1vw;
@@ -131,10 +133,10 @@ body::-webkit-scrollbar {
   flex-flow: row;
   gap: 1.75vw;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.25fr 0.75fr 1fr 2.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr;
+  grid-template-rows: 0.25fr 0.75fr 1fr 2.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr 0.25fr 0.25fr 0.25fr;
   height: 91vh;
   margin: 2rem;
-  grid-template-areas: "header header" "display display" "welcome welcome" "subhead subhead" "portfolio-df-hb portfolio-df-wf" "subhead2 subhead2" "portfolio-f-p portfolio-f-bb" "portfolio-f-c portfolio-f-m" "escapes escapes" "portfolio-lt portfolio-gci" "managed managed" "footer footer";
+  grid-template-areas: "header header" "display display" "welcome welcome" "subhead subhead" "portfolio-df-hb portfolio-df-wf" "subhead2 subhead2" "portfolio-f-p portfolio-f-bb" "portfolio-f-c portfolio-f-m" "escapes escapes" "portfolio-lt portfolio-gci" "managed managed" "bye bye";
   align-items: start;
   justify-content: center;
 }
@@ -182,6 +184,11 @@ body::-webkit-scrollbar {
   padding-top: 3vw;
 }
 
+.grid__bye {
+  grid-area: bye;
+  background-color: rgb(75, 160, 192);
+}
+
 .flex__welcome {
   position: relative;
   color: white;
@@ -192,6 +199,10 @@ body::-webkit-scrollbar {
 .italic {
   font-family: "palatino_lt_stditalic";
   color: white;
+}
+
+.lh--1 {
+  line-height: 1;
 }
 
 .welcome-2 {
@@ -205,7 +216,7 @@ body::-webkit-scrollbar {
 
 .grid__managed {
   grid-area: managed;
-  background-color: aqua;
+  background-color: black;
   padding-top: 2vw;
 }
 
@@ -270,6 +281,65 @@ h8 {
   color: white;
 }
 
+.h9 {
+  font-family: "palatino_lt_stdroman";
+  font-size: 3vw;
+  text-align: center;
+  color: white;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  line-height: 1.25;
+}
+
+.h10 {
+  font-family: "palatino_lt_stdroman";
+  font-size: 1.75vw;
+  text-align: center;
+  color: white;
+  padding-left: 0vw;
+  padding-bottom: 2vw;
+  padding-top: vw;
+}
+
+.h11 {
+  display: flex;
+  font-family: "palatino_lt_stdroman";
+  font-size: 1.75vw;
+  text-align: center;
+  color: white;
+}
+
+a.button1 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.2em 0.2em 0;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "palatino_lt_stdroman";
+  font-size: 2vw;
+  line-height: 1.25;
+  width: 66vw;
+  background-color: rgb(87, 182, 217);
+  color: black;
+  margin-left: 5vw;
+  margin-bottom: 2.5vw;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+a.button1:hover {
+  color: white;
+  background-color: rgb(87, 182, 217);
+}
+
+@media all and (max-width: 30em) {
+   a.button1 {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
 .trythis {
   padding-left: 2vw;
   padding-top: 0;
@@ -300,7 +370,19 @@ h8 {
 }
 
 .visit:hover {
-  filter: grayscale(100%) sepia(100%);
+  filter: brightness(0) invert(1);
+}
+
+.visit2 {
+  margin-top: -3vw;
+  width: 25%;
+  padding-bottom: 4.35vw;
+  display: block;
+  margin: auto;
+}
+
+.visit2:hover {
+  filter: brightness(0) invert(1);
 }
 
 .flex__display {
@@ -336,6 +418,10 @@ h8 {
   padding-bottom: 0vw;
   color: black;
   position: relative;
+}
+
+.flex__managed {
+  color: white;
 }
 
 .welcome-background {
@@ -408,7 +494,7 @@ img {
   -o-object-position: center;
   object-position: center;
   width: 100%;
-  border-radius: 0.25rem;
+  border-radius: 0.125rem;
 }
 
 #swiper-1 .swiper-pagination {
