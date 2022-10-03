@@ -1,6 +1,7 @@
 @charset "UTF-8";
 * {
   border-radius: 0.25rem;
+  transition: 0.3s;
 }
 * *::before,
 * *::after {
@@ -95,11 +96,10 @@ h6 {
   font-family: "palatino_lt_stdroman";
   text-decoration: none;
   font-size: 1.45vw;
-  line-height: 1.5vw;
+  line-height: 2.75vw;
   color: rgb(161, 224, 249);
   margin-bottom: -1vw;
 }
-
 .mail-to:hover {
   color: white;
 }
@@ -198,6 +198,14 @@ body::-webkit-scrollbar {
 
 .italic {
   font-family: "palatino_lt_stditalic";
+  color: white;
+}
+
+.background--color__black {
+  background-color: black;
+}
+
+.font--color__white {
   color: white;
 }
 
@@ -326,12 +334,12 @@ a.button1 {
   margin-left: 5vw;
   margin-bottom: 2.5vw;
   text-align: center;
-  transition: all 0.2s;
+  transition: all 0.4s;
 }
 
 a.button1:hover {
-  color: white;
-  background-color: rgb(87, 182, 217);
+  color: black;
+  background-color: rgb(255, 133, 115);
 }
 
 @media all and (max-width: 30em) {
@@ -399,8 +407,8 @@ a.button1:hover {
 }
 
 .flex__subhead {
-  padding-top: 2vw;
-  padding-bottom: 0vw;
+  padding-top: 1.5vw;
+  padding-bottom: 0.5vw;
 }
 
 .flex__subhead2 {
