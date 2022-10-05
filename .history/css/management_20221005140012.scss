@@ -219,7 +219,7 @@ body::-webkit-scrollbar {
     "welcome welcome"
     "subhead subhead"
     "portfolio-pa-tt portfolio-pa-nah"
-    "portfolio-pa-tr ."
+    "portfolio-pa-tr portfolio-df-b2"
     "subhead2 subhead2"
     "portfolio-f-p portfolio-f-bb"
     "portfolio-f-c portfolio-f-m"
@@ -348,9 +348,6 @@ line-height: 1;
   }
   &-pa-nah {
     grid-area: portfolio-pa-nah;
-  } 
-  &-pa-transition {
-    grid-area: portfolio-pa-tr;
   }
   &-f-p {
     grid-area: portfolio-f-p;
