@@ -131,10 +131,10 @@ body::-webkit-scrollbar {
   flex-flow: row;
   gap: 1.75vw;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.25fr 0.75fr 1fr 2.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr 0.25fr 0.25fr 0.25fr;
+  grid-template-rows: 0.25fr 0.75fr 1fr 2.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr 0.25fr 0.25fr 0.25fr;
   height: 91vh;
   margin: 2rem;
-  grid-template-areas: "header header" "display display" "welcome welcome" "subhead subhead" "portfolio-df-hb portfolio-df-wf" "subhead2 subhead2" "portfolio-f-p portfolio-f-bb" "portfolio-f-c portfolio-f-m" "escapes escapes" "portfolio-lt portfolio-gci" "managed managed" "bye bye";
+  grid-template-areas: "header header" "display display" "welcome welcome" "subhead subhead" "portfolio-pa-tt portfolio-pa-nah" "portfolio-pa-b1 portfolio-df-b2" "subhead2 subhead2" "portfolio-f-p portfolio-f-bb" "portfolio-f-c portfolio-f-m" "escapes escapes" "portfolio-lt portfolio-gci" "managed managed" "bye bye";
   align-items: start;
   justify-content: center;
 }
@@ -235,11 +235,11 @@ body::-webkit-scrollbar {
 .grid__portfolio-gci {
   grid-area: portfolio-gci;
 }
-.grid__portfolio-df-hb {
-  grid-area: portfolio-df-hb;
+.grid__portfolio-pa-tt {
+  grid-area: portfolio-pa-tt;
 }
-.grid__portfolio-df-wf {
-  grid-area: portfolio-df-wf;
+.grid__portfolio-pa-nah {
+  grid-area: portfolio-pa-nah;
 }
 .grid__portfolio-f-p {
   grid-area: portfolio-f-p;
