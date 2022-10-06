@@ -157,7 +157,7 @@ body::-webkit-scrollbar {
   grid-template-rows: 0.25fr 0.75fr 1fr 2.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr 0.25fr 0.25fr 0.25fr;
   height: 91vh;
   margin: 2rem;
-  grid-template-areas: "header header" "display display" "welcome welcome" "subhead subhead" "portfolio-pa-tt portfolio-pa-nah" "portfolio-pa-tr ." "subhead2 subhead2" "portfolio-f-p portfolio-f-bb" "portfolio-f-c portfolio-f-m" "escapes escapes" "portfolio-gci portfolio-lt" "managed managed" "bye bye";
+  grid-template-areas: "header header" "display display" "subhead subhead" "portfolio-pa-tt portfolio-pa-nah" "portfolio-pa-tr ." "subhead2 subhead2" "portfolio-f-p portfolio-f-bb" "portfolio-f-c portfolio-f-m" "escapes escapes" "portfolio-gci portfolio-lt" "managed managed" "bye bye";
   align-items: start;
   justify-content: center;
 }
