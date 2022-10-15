@@ -723,15 +723,10 @@ img {
 /*! section ONE proof of concept */
 
 section.section__one {
-    background: blue;
+        background: blue;
 
     & .grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin: 1em;
-        grid-gap: 1em;
-
     }
 }
 

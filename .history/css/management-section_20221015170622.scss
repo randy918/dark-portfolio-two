@@ -728,9 +728,7 @@ section.section__one {
     & .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin: 1em;
-        grid-gap: 1em;
+        
 
     }
 }
