@@ -340,10 +340,8 @@ h8 {
 }
 
 .h11 {
-  display: flex;
   font-family: "palatino_lt_stdroman";
   font-size: 1.75vw;
-  text-align: center;
   color: white;
 }
 
@@ -420,6 +418,15 @@ a.button1:hover {
 
 .visit2:hover {
   filter: brightness(0) invert(1);
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 0 10px 0 0;
 }
 
 .flex__display {
