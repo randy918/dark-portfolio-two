@@ -166,10 +166,10 @@ body::-webkit-scrollbar {
   grid-area: display;
   -o-object-fit: contain;
      object-fit: contain;
-  width: 75.5vw;
+  width: 84vw;
   height: 100%;
-  margin-left: 10vw;
-  margin-right: 7vw;
+  margin-left: vw;
+  margin-right: vw;
   margin-bottom: 2vw;
 }
 
@@ -587,4 +587,4 @@ img {
 
 .pair {
   display: inline-block;
-}/*# sourceMappingURL=management-rewrite.css.map */
+}/*# sourceMappingURL=management-rewrite_20221017081006.css.map */

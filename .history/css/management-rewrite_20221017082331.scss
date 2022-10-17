@@ -286,7 +286,7 @@ body::-webkit-scrollbar {
     // padding: 2vw;
     //    max-height: 330px;
     object-fit: contain;
-    width: 75.5vw;
+    width: 74vw;
     height: 100%;
         margin-left: 10vw;
         margin-right: 7vw;
@@ -295,8 +295,8 @@ body::-webkit-scrollbar {
 
 .grid__subhead {
     grid-area: subhead;
-     margin-left: 7vw;
-     margin-right: 7vw;
+     margin-left: 10vw;
+     margin-right: 10vw;
      margin-bottom: 2vw;
 }
 
@@ -381,14 +381,14 @@ body::-webkit-scrollbar {
 
     &-pa-tt {
         grid-area: portfolio-pa-tt;
-        width: 40.75vw;
-        margin-left: 7vw;
+        width: 35vw;
+        margin-left: 10vw;
         display: inline-block;
     }
 
     &-pa-nah {
         grid-area: portfolio-pa-nah;
-        width: 40.75vw;
+        width: 35vw;
         margin-left: 1.25vw;
         margin-right: 5vw;
         display: inline-block;

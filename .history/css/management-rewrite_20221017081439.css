@@ -175,8 +175,8 @@ body::-webkit-scrollbar {
 
 .grid__subhead {
   grid-area: subhead;
-  margin-left: 7vw;
-  margin-right: 7vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   margin-bottom: 2vw;
 }
 
@@ -252,13 +252,13 @@ body::-webkit-scrollbar {
 }
 .grid__portfolio-pa-tt {
   grid-area: portfolio-pa-tt;
-  width: 40.75vw;
+  width: 37vw;
   margin-left: 7vw;
   display: inline-block;
 }
 .grid__portfolio-pa-nah {
   grid-area: portfolio-pa-nah;
-  width: 40.75vw;
+  width: 37vw;
   margin-left: 1.25vw;
   margin-right: 5vw;
   display: inline-block;
@@ -587,4 +587,4 @@ img {
 
 .pair {
   display: inline-block;
-}/*# sourceMappingURL=management-rewrite.css.map */
+}/*# sourceMappingURL=management-rewrite_20221017081439.css.map */

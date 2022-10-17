@@ -157,8 +157,8 @@ body::-webkit-scrollbar {
   padding-top: 3vw;
   padding-bottom: 1.5vw;
   margin-top: 6vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
   margin-bottom: 2vw;
 }
 
@@ -166,9 +166,9 @@ body::-webkit-scrollbar {
   grid-area: display;
   -o-object-fit: contain;
      object-fit: contain;
-  width: 75.5vw;
+  width: 84vw;
   height: 100%;
-  margin-left: 10vw;
+  margin-left: 7vw;
   margin-right: 7vw;
   margin-bottom: 2vw;
 }
@@ -193,8 +193,7 @@ body::-webkit-scrollbar {
   background-image: url("/./img/10-01-22.1901-hadianna-black-welcome.png");
   width: 84vw;
   height: 23vw;
-  left: 7vw;
-  margin-bottom: 2vw;
+  left: 14vw;
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -587,4 +586,4 @@ img {
 
 .pair {
   display: inline-block;
-}/*# sourceMappingURL=management-rewrite.css.map */
+}/*# sourceMappingURL=management-rewrite_20221017074657.css.map */
