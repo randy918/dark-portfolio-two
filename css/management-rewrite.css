@@ -160,6 +160,7 @@ body::-webkit-scrollbar {
   margin-left: 10vw;
   margin-right: 10vw;
   margin-bottom: 2vw;
+  width: 75.5vw;
 }
 
 .grid__display {
@@ -175,7 +176,8 @@ body::-webkit-scrollbar {
 
 .grid__subhead {
   grid-area: subhead;
-  margin-left: 7vw;
+  width: 75.5vw;
+  margin-left: 10vw;
   margin-right: 7vw;
   margin-bottom: 2vw;
 }
@@ -190,10 +192,10 @@ body::-webkit-scrollbar {
 
 .grid__welcome {
   grid-area: welcome;
-  background-image: url("/./img/10-01-22.1901-hadianna-black-welcome.png");
-  width: 84vw;
+  background-image: url("/./img/10-17-22.0929-hadianna-black-welcome.png");
+  width: 75.5vw;
   height: 23vw;
-  left: 7vw;
+  left: 10vw;
   margin-bottom: 2vw;
   background-position: right;
   background-repeat: no-repeat;
@@ -252,13 +254,13 @@ body::-webkit-scrollbar {
 }
 .grid__portfolio-pa-tt {
   grid-area: portfolio-pa-tt;
-  width: 40.75vw;
-  margin-left: 7vw;
+  width: 36.5vw;
+  margin-left: 10vw;
   display: inline-block;
 }
 .grid__portfolio-pa-nah {
   grid-area: portfolio-pa-nah;
-  width: 40.75vw;
+  width: 36.5vw;
   margin-left: 1.25vw;
   margin-right: 5vw;
   display: inline-block;
@@ -266,7 +268,7 @@ body::-webkit-scrollbar {
 .grid__portfolio-pa-tr {
   grid-area: portfolio-pa-tr;
   grid-area: portfolio-pa-tt;
-  width: 40.75vw;
+  width: 36.55vw;
   margin-left: 30vw;
   margin-top: 2.25vw;
   margin-bottom: 2.25vw;
@@ -317,7 +319,8 @@ h4 {
 
 h8 {
   font-family: "palatino_lt_stdroman";
-  font-size: 1.75vw;
+  font-size: 1.85vw;
+  line-height: 1.65;
   color: white;
 }
 
@@ -379,16 +382,17 @@ a.button1:hover {
 }
 .trythis {
   padding-left: 2vw;
+  padding-right: 29vw;
   padding-top: 0;
   margin-top: -8vw;
   float: left;
 }
 
 .has-dropcap:first-letter {
-  font-size: 6vw;
+  font-size: 6.5vw;
   line-height: 0.5;
   float: left;
-  margin: 0.25em 0.1em 0.1em 0;
+  margin: 0.2em 0.1em 0.1em 0;
 }
 
 .doit {
