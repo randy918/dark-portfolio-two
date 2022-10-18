@@ -247,7 +247,7 @@ body::-webkit-scrollbar {
   padding-top: 2vw;
   width: 75.5vw;
   margin-top: 1.75vw;
-  margin-left: 8vw;
+  margin-left: 10vw;
   margin-right: 9vw;
   margin-bottom: 2vw;
 }
@@ -362,20 +362,19 @@ a.button1 {
   border-radius: 0.5em;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "palatino_lt_stdroman";
-  font-size: 2vw;
-  line-height: 1.25;
   width: 66vw;
-  background-color: rgb(255, 133, 115);
-  color: black;
+  height: 7vw;
+  background-image: url("/./img/10-17-22.1929-base-filler-orange.png");
+  background-size: cover;
   margin-left: 5vw;
   margin-bottom: 2.5vw;
+  margin-top: 2vw;
   text-align: center;
   transition: all 0.4s;
 }
 a.button1:hover {
   color: black;
-  background-color: rgb(87, 182, 217);
+  background-image: url("/./img/10-17-22.1929-base-filler.png");
 }
 
 @media all and (max-width: 30em) {
