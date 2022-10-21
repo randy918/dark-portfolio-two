@@ -544,7 +544,7 @@ img {
   color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   * {
     border-radius: 0.25rem;
     transition: 0.3s;
@@ -847,13 +847,13 @@ img {
     background-color: rgb(255, 133, 115);
   }
 }
-@media only screen and (max-width: 600px) and (max-width: 30em) {
-  a.button1 {
+@media only screen and (max-width: 800px) and (max-width: 30em) {
+   a.button1 {
     display: block;
     margin: 0.4em auto;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .trythis {
     padding-left: 2vw;
     padding-top: 0;
@@ -861,7 +861,7 @@ img {
     float: left;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .has-dropcap:first-letter {
     font-size: 6vw;
     line-height: 0.5;
@@ -869,7 +869,7 @@ img {
     margin: 0.25em 0.1em 0.1em 0;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .doit {
     position: absolute;
     top: 0;
@@ -877,7 +877,7 @@ img {
     z-index: 1000;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .visit {
     margin-top: -3vw;
     width: 25%;
@@ -886,12 +886,12 @@ img {
     margin: auto;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .visit:hover {
     filter: brightness(0) invert(1);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .visit2 {
     margin-top: -3vw;
     width: 25%;
@@ -900,12 +900,12 @@ img {
     margin: auto;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .visit2:hover {
     filter: brightness(0) invert(1);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .flex__display {
     display: flex;
     flex-direction: row;
@@ -919,25 +919,25 @@ img {
     justify-content: space-around;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .flex__subhead {
     padding-top: 1.5vw;
     padding-bottom: 0.5vw;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .flex__subhead2 {
     padding-top: 2vw;
     padding-bottom: 0vw;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .flex__escapes {
     padding-top: 2vw;
     padding-bottom: 0vw;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .flex__welcome {
     padding-top: 2vw;
     padding-bottom: 0vw;
@@ -945,12 +945,12 @@ img {
     position: relative;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .flex__managed {
     color: white;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .welcome-background {
     background-image: url("/./img/10-01-22.1901-hadianna-black-welcome.png");
     background-position: center;
@@ -959,27 +959,27 @@ img {
     background-size: cover;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .img-container {
     position: relative;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .img-container img {
     transition: all 0.5s ease;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   a {
     position: relative;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .img-container img:first-child {
     position: relative;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .img-container img:last-child {
     position: absolute;
     z-index: 1;
@@ -988,17 +988,17 @@ img {
     opacity: 0;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .img-container:hover img:last-child {
     opacity: 1;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   img {
     border-radius: 0.25rem;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .text-a {
     position: absolute;
     top: 52vw;
@@ -1007,24 +1007,24 @@ img {
     z-index: 100;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .swiper {
     height: 100%;
     background-color: rgb(96, 176, 203);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .swiper-wrapper {
     position: relative;
     text-align: center;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .swiper-slide {
     width: 100% !important;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .swiper-slide img {
     background-color: red;
     height: 100%;
@@ -1036,24 +1036,24 @@ img {
     border-radius: 0.125rem;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   #swiper-1 .swiper-pagination {
     bottom: 1vw;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   #swiper-1 .swiper-pagination-bullet {
     opacity: 1;
     background-color: white;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   #swiper-1 .swiper-pagination-bullet-active {
     opacity: 1;
     background-color: red;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .swiper-title-1 {
     position: absolute;
     top: 0;
@@ -1061,7 +1061,7 @@ img {
     color: white;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .swiper-title-2 {
     position: absolute;
     top: 0;
@@ -1069,7 +1069,7 @@ img {
     color: white;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .swiper-title-3 {
     position: absolute;
     top: 0;
@@ -1077,7 +1077,7 @@ img {
     color: white;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .swiper-title-4 {
     position: absolute;
     top: 0;
