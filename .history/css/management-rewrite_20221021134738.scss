@@ -759,7 +759,21 @@ display: inline-block;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
+
 
 
 * {
@@ -995,9 +1009,9 @@ body::-webkit-scrollbar {
     padding-bottom: 1.5vw;
     margin-top: 6vw;
     margin-left: 10vw;
-    margin-right: 10vw;
+    // margin-right: 3vw;
     margin-bottom: 2vw;
-    width: 75.5vw;
+    width: 100vw;
 
 }
 

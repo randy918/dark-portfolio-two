@@ -757,11 +757,6 @@ display: inline-block;
 
 
 }
-
-
-@media only screen and (max-width: 600px) {
-
-
 * {
 
     *::before,
@@ -1473,10 +1468,6 @@ img {
 .pair {
 
     display: inline-block;
-
-
-}
-
-
+@media only screen and (max-width: 600px) {
 
 }

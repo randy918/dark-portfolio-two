@@ -759,66 +759,27 @@ display: inline-block;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
 
-
-* {
-
-    *::before,
-    *::after {
-        box-sizing: border-box;
-        border: none;
-    }
-
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    p,
-    figure,
-    blockquote,
-    dl,
-    dd {
-        margin: 0;
-    }
-
-    border-radius: 0.25rem;
-    transition: 0.3s;
-
-}
-
-@font-face {
-    font-family: "palatino_lt_stdblack";
-    src: url("/./fonts/palatinoltstd_black-webfont.woff2") format("woff2"),
-        url("/./fonts/palatinoltstd_black-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "palatino_lt_stdbold";
-    src: url("/./fonts/palatinoltstd_bold-webfont.woff2") format("woff2"),
-        url("/./fonts/palatinoltstd_bold-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "palatino_lt_stditalic";
-    src: url("/./fonts/palatinoltstd_italic-webfont.woff2") format("woff2"),
-        url("/./fonts/palatinoltstd_italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "palatino_lt_stdroman";
-    src: url("/./fonts/palatinoltstd_roman-webfont.woff2") format("woff2"),
-        url("/./fonts/palatinoltstd_roman-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
 
 h1 {
     font-family: "palatino_lt_stdbold";
@@ -922,6 +883,8 @@ h7 {
 }
 
 body {
+    w: auto;
+    overflow-x: hidden;
     background-color: getColor(hadiannaSalmonOne);
     display: flex;
     justify-content: center;
@@ -997,7 +960,7 @@ body::-webkit-scrollbar {
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 2vw;
-    width: 75.5vw;
+    width: 98vw;
 
 }
 
