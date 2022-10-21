@@ -652,7 +652,7 @@ img {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
 
 * {
@@ -826,14 +826,12 @@ body::-webkit-scrollbar {
     "portfolio-df-wf"
     "subhead2"
     "portfolio-f-p" 
-    "portfolio-f-bb"
-    "portfolio-f-c"
-    "portfolio-f-m"
-    "escapes"
-    "portfolio-lt"
-    "portfolio-gci"
-    "managed"
-    "bye";
+    portfolio-f-bb"
+    "portfolio-f-c portfolio-f-m"
+    "escapes escapes"
+    "portfolio-lt portfolio-gci"
+    "managed managed"
+    "bye bye";
   // "footer footer";
 
   align-items: start;
