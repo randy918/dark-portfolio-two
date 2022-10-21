@@ -771,6 +771,9 @@ display: inline-block;
 
 
 
+
+
+
 @media only screen and (max-width: 600px) {
 
 
@@ -934,6 +937,7 @@ h7 {
 }
 
 body {
+    
     background-color: getColor(hadiannaSalmonOne);
     display: flex;
     justify-content: center;
@@ -946,7 +950,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 1px;
+    width: 12px;
 
     //   width: min(1000px, calc(70% + 100px));
 }
@@ -1003,13 +1007,14 @@ body::-webkit-scrollbar {
 .grid__header {
     grid-area: header;
     background-color: black;
-    // padding-top: 3vw;
+    padding-top: 3vw;
     padding-bottom: 1.5vw;
-    // margin-top: 6vw;
-    // margin-left: 10vw;
-    // margin-right: 10vw;
+    margin-top: 6vw;
+    margin-left: 0vw;
+    padding-left: 0vw;
+    margin-right: 10vw;
     margin-bottom: 2vw;
-    width: 100vw;
+    width: 75.5vw;
 
 }
 
@@ -1048,7 +1053,7 @@ body::-webkit-scrollbar {
     background-image: url("/./img/10-17-22.0929-hadianna-black-welcome.png");
     width: 75.5vw;
     height: 23vw;
-    left: 10vw;
+    left: 0vw;
     margin-bottom: 2vw;
     background-position: right;
     background-repeat: no-repeat;
