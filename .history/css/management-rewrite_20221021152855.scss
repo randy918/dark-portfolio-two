@@ -1134,10 +1134,13 @@ body::-webkit-scrollbar {
     }
 
     &-pa-tr {
-          grid-area: portfolio-pa-tt;
-          width: 100vw;
-          margin-left: 10vw;
-          display: inline-block;
+        grid-area: portfolio-pa-tr;
+        grid-area: portfolio-pa-tt;
+        width: 36.55vw;
+        margin-left: 30vw;
+        margin-top: 2.25vw;
+        margin-bottom: 2.25vw;
+        display: inline-block;
     }
 
     &-f-p {

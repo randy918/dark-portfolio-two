@@ -1121,23 +1121,27 @@ body::-webkit-scrollbar {
 
     &-pa-tt {
         grid-area: portfolio-pa-tt;
-        width: 100vw;
+        width: 36.5vw;
         margin-left: 10vw;
         display: inline-block;
     }
 
     &-pa-nah {
-        grid-area: portfolio-pa-tt;
-        width: 100vw;
-        margin-left: 10vw;
+        grid-area: portfolio-pa-nah;
+        width: 36.5vw;
+        margin-left: 1.25vw;
+        margin-right: 5vw;
         display: inline-block;
     }
 
     &-pa-tr {
-          grid-area: portfolio-pa-tt;
-          width: 100vw;
-          margin-left: 10vw;
-          display: inline-block;
+        grid-area: portfolio-pa-tr;
+        grid-area: portfolio-pa-tt;
+        width: 36.55vw;
+        margin-left: 30vw;
+        margin-top: 2.25vw;
+        margin-bottom: 2.25vw;
+        display: inline-block;
     }
 
     &-f-p {
