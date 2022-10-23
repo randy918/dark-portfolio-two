@@ -301,7 +301,7 @@ body::-webkit-scrollbar {
 
 .grid__subhead {
     grid-area: subhead;
-        width: 79vw;
+        width: 7vw;
 
      margin-left: 10vw;
      margin-right: 7vw;
@@ -374,7 +374,7 @@ body::-webkit-scrollbar {
     // grid-area: managed;
     background-color: black;
     padding-top: 2vw;
-         width: 79vw;
+         width: 75.5vw;
 margin-top: 1.75vw;
          margin-left: 10vw;
          margin-right: 9vw;
@@ -394,14 +394,14 @@ margin-top: 1.75vw;
 
     &-pa-tt {
         grid-area: portfolio-pa-tt;
-        width: 38.5vw;
+        width: 36.5vw;
         margin-left: 10vw;
         display: inline-block;
     }
 
     &-pa-nah {
         grid-area: portfolio-pa-nah;
-        width: 38.5vw;
+        width: 36.5vw;
         margin-left: 1.25vw;
         margin-right: 5vw;
         display: inline-block;
@@ -410,7 +410,7 @@ margin-top: 1.75vw;
     &-pa-tr {
         grid-area: portfolio-pa-tr;
            grid-area: portfolio-pa-tt;
-           width: 38.5vw;
+           width: 36.55vw;
            margin-left: 30vw;
            margin-top: 2.25vw;
            margin-bottom: 2.25vw;
@@ -515,7 +515,7 @@ a.button1 {
     // line-height: 1.25;
     width: 66vw;
     height: 7vw;
-    background-image: url("/./img/10-17-22.1929-base-filler.png");
+    background-image: url("/./img/10-17-22.1929-base-filler-orange.png");
     background-position: center;
     // color: black;
     background-size: cover;
@@ -527,7 +527,7 @@ a.button1 {
 
     &:hover {
         color: black;
-    background-image: url("/./img/10-17-22.1929-base-filler-orange.png");
+    background-image: url("/./img/10-17-22.1929-base-filler.png");
     }
 }
 
