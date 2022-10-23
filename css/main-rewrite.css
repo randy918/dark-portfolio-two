@@ -741,6 +741,7 @@ img {
     background-color: black;
     padding-bottom: 1.5vw;
     padding-top: 3.5vw;
+    border-radius: 0rem 0rem 0.25rem 0.25rem;
     margin-bottom: 2vw;
     width: 100vw;
   }
