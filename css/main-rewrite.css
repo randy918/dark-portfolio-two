@@ -338,6 +338,11 @@ h8 {
   line-height: 1.25;
 }
 
+.h99 {
+  color: black;
+  font-size: 2vw;
+}
+
 .h10 {
   font-family: "palatino_lt_stdroman";
   font-size: 1.75vw;
