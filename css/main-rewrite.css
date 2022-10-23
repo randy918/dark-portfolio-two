@@ -133,7 +133,7 @@ h6 {
 }
 
 body {
-  background-color: rgb(229, 120, 103);
+  background-color: rgb(75, 160, 192);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
 }
 
 .grid__item {
-  background-color: rgb(255, 133, 115);
+  background-color: rgb(87, 182, 217);
   display: inline-block;
 }
 
@@ -191,7 +191,7 @@ body::-webkit-scrollbar {
 
 .grid__welcome {
   grid-area: welcome;
-  background-image: url("/./img/10-17-22.0929-hadianna-black-welcome.png");
+  background-image: url("/./img/10-01-22.1901-hadianna-black-welcome.png");
   width: 75.5vw;
   height: 23vw;
   left: 10vw;
@@ -205,7 +205,7 @@ body::-webkit-scrollbar {
 
 .grid__bye {
   grid-area: bye;
-  background-color: rgb(229, 120, 103);
+  background-color: rgb(75, 160, 192);
 }
 
 .flex__welcome {
@@ -322,8 +322,8 @@ h4 {
 
 h8 {
   font-family: "palatino_lt_stdroman";
-  font-size: 1.85vw;
-  line-height: 1.65;
+  font-size: 1.5vw;
+  line-height: 1.8;
   color: white;
 }
 
@@ -528,7 +528,7 @@ img {
 
 .swiper {
   height: 100%;
-  background-color: rgb(229, 120, 103);
+  background-color: rgb(75, 160, 192);
 }
 
 .swiper-wrapper {
@@ -769,9 +769,9 @@ img {
   }
   .grid__welcome {
     grid-area: welcome;
-    background-image: url("/./img/10-17-22.0929-hadianna-black-welcome.png");
+    background-image: url("/./img/10-01-22.1901-hadianna-black-welcome.png");
     width: 100vw;
-    height: 23vw;
+    height: 29vw;
     left: 10vw;
     margin-bottom: 2vw;
     background-position: right;
