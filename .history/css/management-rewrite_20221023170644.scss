@@ -1111,7 +1111,7 @@ body::-webkit-scrollbar {
     // grid-area: managed;
     background-color: black;
     padding-top: 2vw;
-    width: 100.5vw;
+    width: 1.5vw;
     margin-top: 1.75vw;
     margin-left: 10vw;
     margin-right: 9vw;
@@ -1248,7 +1248,7 @@ a.button1 {
     // line-height: 1.25;
     width: 66vw;
     height: 7vw;
-    background-image: url("/./img/10-17-22.1929-base-filler.png");
+    background-image: url("/./img/10-17-22.1929-base-filler-orange.png");
     background-position: center;
     // color: black;
     background-size: cover;
@@ -1260,7 +1260,7 @@ a.button1 {
 
     &:hover {
         color: black;
-        background-image: url("/./img/10-17-22.1929-base-filler-orange.png");
+        background-image: url("/./img/10-17-22.1929-base-filler.png");
     }
 }
 
