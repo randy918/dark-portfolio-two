@@ -93,6 +93,7 @@ h6 {
   text-decoration: none;
   font-size: 1.45vw;
   line-height: 2.75vw;
+  padding-top: 1vw;
   color: rgb(255, 133, 115);
   margin-bottom: -1vw;
 }
@@ -156,7 +157,6 @@ body::-webkit-scrollbar {
   background-color: black;
   padding-top: 3vw;
   padding-bottom: 1.5vw;
-  margin-top: 6vw;
   margin-left: 10vw;
   margin-right: 10vw;
   margin-bottom: 2vw;
@@ -730,7 +730,7 @@ img {
     caret-color: transparent;
   }
   body::-webkit-scrollbar {
-    width: 1px;
+    width: 0.25px;
   }
   .grid__item {
     background-color: rgb(255, 133, 115);
@@ -1186,5 +1186,11 @@ img {
 @media only screen and (max-width: 600px) {
   .pair {
     display: inline-block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .h88 {
+    font-size: 2.5vw;
+    padding-bottom: 2vw;
   }
 }/*# sourceMappingURL=management-rewrite.css.map */

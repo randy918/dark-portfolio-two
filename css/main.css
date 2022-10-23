@@ -657,7 +657,7 @@ img {
     caret-color: transparent;
   }
   body::-webkit-scrollbar {
-    width: 12px;
+    width: 0.25px;
   }
   .grid__container {
     display: grid;
@@ -679,6 +679,7 @@ img {
     grid-area: header;
     background-color: black;
     padding-top: 3vw;
+    width: 100vw;
     padding-bottom: 1.5vw;
   }
   .grid__display {
