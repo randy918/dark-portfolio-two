@@ -749,7 +749,7 @@ img {
     padding-bottom: 1.5vw;
     padding-top: 3.5vw;
     border-radius: 0rem 0rem 0.25rem 0.25rem;
-    margin-bottom: 2vw;
+    margin-bottom: 6vw;
     width: 100vw;
   }
   .grid__display {
@@ -760,7 +760,7 @@ img {
     height: 100%;
     margin-left: 10vw;
     margin-right: 7vw;
-    margin-bottom: 2vw;
+    margin-bottom: 6vw;
   }
   .grid__subhead {
     grid-area: subhead;
@@ -789,6 +789,7 @@ img {
     background-size: cover;
     position: relative;
     padding-top: 3vw;
+    margin-bottom: 6vw;
   }
   .grid__bye {
     grid-area: bye;
