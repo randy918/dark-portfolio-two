@@ -156,6 +156,7 @@ body::-webkit-scrollbar {
   background-color: black;
   padding-top: 3vw;
   padding-bottom: 1.5vw;
+  margin-top: 8vw;
   margin-left: 10vw;
   margin-right: 10vw;
   margin-bottom: 2vw;

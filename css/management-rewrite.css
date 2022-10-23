@@ -154,6 +154,7 @@ body::-webkit-scrollbar {
 
 .grid__header {
   grid-area: header;
+  margin-top: 8vw;
   background-color: black;
   padding-top: 3vw;
   padding-bottom: 1.5vw;
