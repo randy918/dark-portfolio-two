@@ -940,7 +940,7 @@ h7 {
 }
 
 body {
-    background-color: getColor(hadiannaSalmonFour);
+    background-color: getColor(hadiannaSalmonFou);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1071,7 +1071,7 @@ body::-webkit-scrollbar {
 
 .grid__bye {
     grid-area: bye;
-    background-color: getColor(hadiannaSalmonFour);
+    background-color: getColor(hadiannaSalmonOne);
 }
 
 .flex__welcome {
@@ -1425,7 +1425,7 @@ img {
 
 .swiper {
     height: 100%;
-    background-color: getColor(hadiannaSalmonFour);
+    background-color: getColor(hadiannaSalmonOne);
 }
 
 .swiper-wrapper {

@@ -730,7 +730,7 @@ img {
     fill: black;
   }
   body {
-    background-color: rgb(75, 160, 192);
+    background-color: rgb(87, 182, 217);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -796,7 +796,7 @@ img {
   }
   .grid__bye {
     grid-area: bye;
-    background-color: rgb(75, 160, 192);
+    background-color: rgb(87, 182, 217);
   }
   .flex__welcome {
     position: relative;
@@ -1124,7 +1124,7 @@ img {
 @media only screen and (max-width: 600px) {
   .swiper {
     height: 100%;
-    background-color: rgb(75, 160, 192);
+    background-color: rgb(87, 182, 217);
   }
 }
 @media only screen and (max-width: 600px) {
