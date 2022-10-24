@@ -775,10 +775,10 @@ img {
     grid-area: welcome;
     background-image: url("/./img/10-17-22.0929-hadianna-black-welcome.png");
     width: 100vw;
-    height: 23vw;
+    height: 49vw;
     left: 10vw;
     margin-bottom: 2vw;
-    background-position: right;
+    background-position: 95% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -947,17 +947,18 @@ img {
 }
 @media only screen and (max-width: 600px) {
   .trythis {
-    padding-left: 2vw;
-    padding-right: 29vw;
+    padding-left: 4vw;
+    padding-right: 43vw;
     padding-top: 0;
     margin-top: -8vw;
     float: left;
+    font-size: 3vw;
   }
 }
 @media only screen and (max-width: 600px) {
   .has-dropcap:first-letter {
-    font-size: 6.5vw;
-    line-height: 0.85;
+    font-size: 11vw;
+    line-height: 0.55;
     float: left;
     margin: 0.2em 0.1em 0.1em 0;
   }
