@@ -658,12 +658,12 @@ img {
   }
   h3 {
     font-family: "palatino_lt_stdroman";
-    font-size: 2.5vw;
+    font-size: 6vw;
     font-weight: 700;
     color: black;
     text-align: center;
     line-height: 1;
-    padding-top: 1vw;
+    padding-top: 3vw;
   }
   h5 {
     font-family: "palatino_lt_stdroman";
@@ -675,7 +675,7 @@ img {
   }
   h6 {
     font-family: "palatino_lt_stdroman";
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     font-weight: 300;
     color: black;
     opacity: 0.7;
@@ -977,6 +977,7 @@ img {
     padding-bottom: 2vw;
     display: block;
     margin: auto;
+    margin-bottom: 3vw;
   }
 }
 @media only screen and (max-width: 600px) {
