@@ -103,20 +103,6 @@ $colors: (bg: rgba(55, 66, 76, 1),
     font-style: normal;
 }
 
-.logo__1{
-
-display: block;
-
-}
-.logo__2{
-
-display: none;
-
-}
-
-
-
-
 h1 {
     font-family: "palatino_lt_stdbold";
     font-size: 6vw;
@@ -213,6 +199,11 @@ h7 {
 .papa {
     margin-top: -0.5vw;
 }
+
+.image{}
+
+
+
 
 #Layer_1 svg:hover {
     fill: black;
@@ -864,21 +855,6 @@ img {
         font-style: normal;
     }
 
-.logo__2 {
-
-    display: block;
-
-}
-
-.logo__1 {
-
-    display: none;
-
-}
-
-
-
-
     h1 {
         font-family: "palatino_lt_stdbold";
         font-size: 6vw;
@@ -901,6 +877,7 @@ img {
         //   opacity: 0.7;
         text-align: center;
         line-height: 1;
+        letter-spacing: 
         padding-top: 3vw;
     }
 

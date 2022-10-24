@@ -105,12 +105,12 @@ $colors: (bg: rgba(55, 66, 76, 1),
 
 .logo__1{
 
-display: block;
+display: block
 
 }
-.logo__2{
+.logo__1{
 
-display: none;
+display: block
 
 }
 
@@ -863,21 +863,6 @@ img {
         font-weight: normal;
         font-style: normal;
     }
-
-.logo__2 {
-
-    display: block;
-
-}
-
-.logo__1 {
-
-    display: none;
-
-}
-
-
-
 
     h1 {
         font-family: "palatino_lt_stdbold";
