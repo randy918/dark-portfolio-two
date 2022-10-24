@@ -923,7 +923,7 @@ img {
   }
   .h9 {
     font-family: "palatino_lt_stdroman";
-    font-size: 3vw;
+    font-size: 5vw;
     text-align: center;
     color: white;
     padding-left: 4vw;
@@ -932,17 +932,18 @@ img {
   }
   .h10 {
     font-family: "palatino_lt_stdroman";
-    font-size: 1.75vw;
+    font-size: 4vw;
     text-align: center;
-    color: white;
-    padding-left: 0vw;
+    color: rgb(255, 133, 115);
+    padding-left: 4vw;
+    padding-right: 4vw;
     padding-bottom: 2vw;
-    padding-top: vw;
+    padding-top: 2vw;
   }
   .h11 {
     font-family: "palatino_lt_stdroman";
     margin-right: 4vw;
-    font-size: 1.75vw;
+    font-size: 2.75vw;
     color: white;
   }
   a.button1 {
