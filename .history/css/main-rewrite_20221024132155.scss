@@ -880,18 +880,12 @@ img {
 }
 
 
-body {
-  overflow-x: hidden;
-}
-body {
-  position: relative
-}
+
 
     h1 {
         font-family: "palatino_lt_stdbold";
         font-size: 6vw;
         font-weight: 900;
-        letter-spacing: -.4vw;
     }
 
     h2 {
@@ -911,7 +905,7 @@ body {
         text-align: center;
         line-height: 1;
         padding-top: 3vw;
-        letter-spacing: -.2vw;
+        letter-spacing: -.4vw;
     }
 
     h5 {

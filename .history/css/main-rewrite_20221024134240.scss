@@ -875,13 +875,13 @@ img {
 
 .logo__1 {
 
-    display: none;
+    display: nolllne;
 
 }
 
 
-body {
-  overflow-x: hidden;
+html, body {
+    contain: paint;
 }
 body {
   position: relative

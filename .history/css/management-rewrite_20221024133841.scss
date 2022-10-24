@@ -837,9 +837,9 @@ display: inline-block;
 }
 
 
-
+html,
 body {
-    overflow-x: hidden;
+    contain: paint;
 }
 
 body {

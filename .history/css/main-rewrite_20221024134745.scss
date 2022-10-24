@@ -880,8 +880,8 @@ img {
 }
 
 
-body {
-  overflow-x: hidden;
+html, body {
+  overflow-x: scroll;
 }
 body {
   position: relative
