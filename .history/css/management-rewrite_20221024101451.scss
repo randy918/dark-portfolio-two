@@ -836,6 +836,15 @@ display: inline-block;
     font-style: normal;
 }
 
+
+.grid__container {
+   position: sticky;
+   top: 0;
+   z-index: 999;
+
+}
+
+
 h1 {
     font-family: "palatino_lt_stdbold";
     font-size: 6vw;
@@ -891,14 +900,7 @@ h7 {
     //   margin-top: 1vw;
     //   margin-bottom: 3vw;;
 }
-.sticky {
 
-
-    position: sticky;
-    top: 0;
-    z-index: 999;
-
-}
 
 
 .mail-to {
@@ -1013,7 +1015,9 @@ body::-webkit-scrollbar {
     display: inline-block;
 }
 
+}
 .grid__header {
+
     grid-area: header;
     background-color: black;
     // padding-top: 3vw;
@@ -1029,7 +1033,10 @@ body::-webkit-scrollbar {
 
 }
 
+
+
 .grid__display {
+    
     grid-area: display;
 
     // padding: 2vw;
@@ -1350,7 +1357,7 @@ li {
     height: 100%;
     background-color: black;
     border-radius: 0.25rem;
-    overflow: hidden;
+    // overflow: hidden;
     justify-content: space-around;
 }
 

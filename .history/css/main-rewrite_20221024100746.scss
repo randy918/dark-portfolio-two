@@ -789,6 +789,11 @@ img {
 
 
 
+
+
+
+
+
 @media only screen and (max-width: 600px) {
 
 
@@ -850,6 +855,8 @@ img {
         font-style: normal;
     }
 
+
+    
     h1 {
         font-family: "palatino_lt_stdbold";
         font-size: 6vw;
@@ -913,14 +920,7 @@ padding-top: 2vw;
         //   margin-bottom: 3vw;;
     }
 
-.sticky{
 
-
-      position: sticky;
-      top: 0;
-      z-index: 999;
-
-}
 
     .mail-to {
         font-family: "palatino_lt_stdroman";
@@ -1049,6 +1049,7 @@ padding-top: 2vw;
         // margin-right: 10vw;
         margin-bottom: 6vw;
         width: 100vw;
+       
 
     }
 

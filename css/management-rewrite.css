@@ -684,6 +684,12 @@ img {
     margin-bottom: 1.5vw;
     text-align: center;
   }
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
   .mail-to {
     font-family: "palatino_lt_stdroman";
     text-decoration: none;

@@ -891,14 +891,7 @@ h7 {
     //   margin-top: 1vw;
     //   margin-bottom: 3vw;;
 }
-.sticky {
 
-
-    position: sticky;
-    top: 0;
-    z-index: 999;
-
-}
 
 
 .mail-to {
@@ -1014,6 +1007,7 @@ body::-webkit-scrollbar {
 }
 
 .grid__header {
+    
     grid-area: header;
     background-color: black;
     // padding-top: 3vw;

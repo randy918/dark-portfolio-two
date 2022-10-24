@@ -891,14 +891,7 @@ h7 {
     //   margin-top: 1vw;
     //   margin-bottom: 3vw;;
 }
-.sticky {
 
-
-    position: sticky;
-    top: 0;
-    z-index: 999;
-
-}
 
 
 .mail-to {
@@ -1013,7 +1006,11 @@ body::-webkit-scrollbar {
     display: inline-block;
 }
 
+}
 .grid__header {
+      position: sticky;
+      top: 0;
+      z-index: 999;
     grid-area: header;
     background-color: black;
     // padding-top: 3vw;
@@ -1028,6 +1025,8 @@ body::-webkit-scrollbar {
     width: 100vw;
 
 }
+
+
 
 .grid__display {
     grid-area: display;
@@ -1350,7 +1349,7 @@ li {
     height: 100%;
     background-color: black;
     border-radius: 0.25rem;
-    overflow: hidden;
+    // overflow: hidden;
     justify-content: space-around;
 }
 
