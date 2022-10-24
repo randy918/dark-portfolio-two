@@ -760,6 +760,7 @@ img {
     border-radius: 0rem 0rem 0.25rem 0.25rem;
     margin-bottom: 6vw;
     width: 100vw;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 25px -5px, rgba(0, 0, 0, 0.3) 0px 10px 10px -5px;
   }
   .grid__display {
     grid-area: display;
