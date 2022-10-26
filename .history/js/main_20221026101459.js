@@ -20,7 +20,7 @@ const main = function () {
   });
 
   document.addEventListener("scroll", (e) => {
-    if (document.documentElement.scrollTop <= 750) {
+    if (document.documentElement.scrollTop <= 550) {
       scrollButton.style.display = "none";
     } else {
       scrollButton.style.display = "block";
