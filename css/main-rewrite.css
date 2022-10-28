@@ -365,7 +365,7 @@ h8 {
   font-family: "palatino_lt_stdroman";
   margin-right: 4vw;
   font-size: 1.75vw;
-  color: white;
+  color: black;
 }
 
 a.button1 {
@@ -378,7 +378,7 @@ a.button1 {
   text-decoration: none;
   width: 66vw;
   height: 7vw;
-  background-image: url("/./img/10-17-22.1929-base-filler-orange.png");
+  background-image: url("/./img/10-17-22.1929-base-filler-yellow.png");
   background-position: center;
   background-size: cover;
   margin-left: 5vw;
@@ -935,7 +935,7 @@ img {
     font-family: "palatino_lt_stdroman";
     font-size: 4vw;
     text-align: center;
-    color: rgb(255, 133, 115);
+    color: rgb(253, 254, 199);
     padding-left: 4vw;
     padding-right: 4vw;
     padding-bottom: 2vw;
@@ -957,7 +957,7 @@ img {
     text-decoration: none;
     width: 66vw;
     height: 7vw;
-    background-image: url("/./img/10-17-22.1929-base-filler-orange.png");
+    background-image: url("/./img/10-17-22.1929-base-filler-yellow.png");
     background-position: center;
     background-size: cover;
     margin-left: 5vw;
@@ -975,6 +975,16 @@ img {
   a.button1 {
     display: block;
     margin: 0.4em auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .black {
+    color: black;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blacker {
+    color: black;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1236,7 +1246,7 @@ img {
 }
 @media only screen and (max-width: 600px) {
   .go-to-top {
-    background-image: url("/./img/10-24-22.15-01-blue-go-to-top.png");
+    background-image: url("/./img/10-28-22.0958-blue-goto.png");
     background-size: cover;
     border-radius: 50%;
     border: none;

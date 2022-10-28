@@ -94,7 +94,7 @@ h6 {
   font-size: 1.45vw;
   line-height: 2.75vw;
   padding-top: 1vw;
-  color: rgb(255, 133, 115);
+  color: rgb(253, 254, 199);
   margin-bottom: -1vw;
 }
 .mail-to:hover {
@@ -134,7 +134,7 @@ h6 {
 }
 
 body {
-  background-color: rgb(229, 120, 103);
+  background-color: rgb(234, 235, 183);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +148,7 @@ body::-webkit-scrollbar {
 }
 
 .grid__item {
-  background-color: rgb(255, 133, 115);
+  background-color: rgb(253, 254, 199);
   display: inline-block;
 }
 
@@ -207,7 +207,7 @@ body::-webkit-scrollbar {
 
 .grid__bye {
   grid-area: bye;
-  background-color: rgb(229, 120, 103);
+  background-color: rgb(234, 235, 183);
 }
 
 .flex__welcome {
@@ -386,6 +386,10 @@ a.button1:hover {
     margin: 0.4em auto;
   }
 }
+.black {
+  color: black;
+}
+
 .trythis {
   padding-left: 2vw;
   padding-right: 29vw;
@@ -530,7 +534,7 @@ img {
 
 .swiper {
   height: 100%;
-  background-color: rgb(229, 120, 103);
+  background-color: rgb(234, 235, 183);
 }
 
 .swiper-wrapper {
@@ -696,7 +700,7 @@ img {
     text-decoration: none;
     font-size: 1.45vw;
     line-height: 2.75vw;
-    color: rgb(255, 133, 115);
+    color: rgb(253, 254, 199);
     margin-bottom: -1vw;
   }
   .mail-to:hover {
@@ -729,7 +733,7 @@ img {
     fill: black;
   }
   body {
-    background-color: rgb(255, 133, 115);
+    background-color: rgb(253, 254, 199);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -741,7 +745,7 @@ img {
     width: 0.25px;
   }
   .grid__item {
-    background-color: rgb(255, 133, 115);
+    background-color: rgb(253, 254, 199);
     display: inline-block;
   }
   .grid__header {
@@ -795,7 +799,7 @@ img {
   }
   .grid__bye {
     grid-area: bye;
-    background-color: rgb(255, 133, 115);
+    background-color: rgb(253, 254, 199);
   }
   .flex__welcome {
     position: relative;
@@ -951,6 +955,11 @@ img {
   a.button1 {
     display: block;
     margin: 0.4em auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .black {
+    color: black;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1124,7 +1133,7 @@ img {
 @media only screen and (max-width: 600px) {
   .swiper {
     height: 100%;
-    background-color: rgb(255, 133, 115);
+    background-color: rgb(253, 254, 199);
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1212,7 +1221,7 @@ img {
 }
 @media only screen and (max-width: 600px) {
   .go-to-top {
-    background-image: url("/./img/10-24-22.15-01-orange-go-to-top.png");
+    background-image: url("/./img/10-28-22.0958-yellow-goto.png");
     background-size: cover;
     border-radius: 50%;
     border: none;
