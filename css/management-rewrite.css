@@ -353,7 +353,7 @@ h8 {
   font-family: "palatino_lt_stdroman";
   margin-right: 4vw;
   font-size: 1.75vw;
-  color: white;
+  color: black;
 }
 
 a.button1 {
@@ -369,7 +369,7 @@ a.button1 {
   background-image: url("/./img/10-17-22.1929-base-filler.png");
   background-position: center;
   background-size: cover;
-  margin-left: 5vw;
+  margin-left: 1.5vw;
   margin-bottom: 2.5vw;
   margin-top: 2vw;
   text-align: center;
@@ -377,7 +377,7 @@ a.button1 {
 }
 a.button1:hover {
   color: black;
-  background-image: url("/./img/10-17-22.1929-base-filler-orange.png");
+  background-image: url("/./img/10-17-22.1929-base-filler-yellow.png");
 }
 
 @media all and (max-width: 30em) {
@@ -547,7 +547,7 @@ img {
 }
 
 .swiper-slide img {
-  background-color: red;
+  background-color: rgb(253, 254, 199);
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
@@ -607,6 +607,7 @@ img {
   * {
     border-radius: 0.25rem;
     transition: 0.3s;
+    scroll-behavior: smooth;
   }
   * *::before,
 * *::after {
@@ -740,6 +741,7 @@ img {
     margin: 0 auto;
     min-width: 0;
     caret-color: transparent;
+    scroll-behavior: smooth;
   }
   body::-webkit-scrollbar {
     width: 0.25px;
@@ -925,7 +927,7 @@ img {
     font-family: "palatino_lt_stdroman";
     margin-right: 4vw;
     font-size: 2.75vw;
-    color: white;
+    color: black;
   }
   a.button1 {
     display: inline-block;
@@ -948,7 +950,7 @@ img {
   }
   a.button1:hover {
     color: black;
-    background-image: url("/./img/10-17-22.1929-base-filler-orange.png");
+    background-image: url("/./img/10-17-22.1929-base-filler-yellow.png");
   }
 }
 @media only screen and (max-width: 600px) and (max-width: 30em) {
@@ -1149,7 +1151,7 @@ img {
 }
 @media only screen and (max-width: 600px) {
   .swiper-slide img {
-    background-color: red;
+    background-color: rgb(253, 254, 199);
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;

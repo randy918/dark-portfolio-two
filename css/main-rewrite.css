@@ -1,6 +1,7 @@
 * {
   border-radius: 0.25rem;
   transition: 0.3s;
+  scroll-behavior: smooth;
 }
 * *::before,
 * *::after {
@@ -381,7 +382,7 @@ a.button1 {
   background-image: url("/./img/10-17-22.1929-base-filler-yellow.png");
   background-position: center;
   background-size: cover;
-  margin-left: 5vw;
+  margin-left: 7vw;
   margin-bottom: 2.5vw;
   margin-top: 2vw;
   text-align: center;
@@ -398,6 +399,10 @@ a.button1:hover {
     margin: 0.4em auto;
   }
 }
+.black {
+  color: black;
+}
+
 .trythis {
   padding-left: 2vw;
   padding-right: 29vw;
@@ -555,7 +560,7 @@ img {
 }
 
 .swiper-slide img {
-  background-color: red;
+  background-color: rgb(87, 182, 217);
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
@@ -576,7 +581,7 @@ img {
 
 #swiper-1 .swiper-pagination-bullet-active {
   opacity: 1;
-  background-color: red;
+  background-color: rgb(87, 182, 217);
 }
 
 .swiper-title-1 {
@@ -615,6 +620,7 @@ img {
   * {
     border-radius: 0.25rem;
     transition: 0.3s;
+    scroll-behavior: smooth;
   }
   * *::before,
 * *::after {
@@ -758,6 +764,7 @@ img {
     margin: 0 auto;
     min-width: 0;
     caret-color: transparent;
+    scroll-behavior: smooth;
   }
   body::-webkit-scrollbar {
     width: 0.25px;
@@ -945,7 +952,7 @@ img {
     font-family: "palatino_lt_stdroman";
     margin-right: 4vw;
     font-size: 2.75vw;
-    color: white;
+    color: black;
   }
   a.button1 {
     display: inline-block;
@@ -1174,7 +1181,7 @@ img {
 }
 @media only screen and (max-width: 600px) {
   .swiper-slide img {
-    background-color: red;
+    background-color: rgb(87, 182, 217);
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
@@ -1198,7 +1205,7 @@ img {
 @media only screen and (max-width: 600px) {
   #swiper-1 .swiper-pagination-bullet-active {
     opacity: 1;
-    background-color: red;
+    background-color: rgb(87, 182, 217);
   }
 }
 @media only screen and (max-width: 600px) {
